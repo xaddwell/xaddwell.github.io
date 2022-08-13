@@ -11,7 +11,7 @@
   <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-  <title>Xaddwell&#39; Blog</title>
+  <title>关于 | Xaddwell&#39; Blog</title>
 
   <link rel="icon" type="image/x-icon, image/vnd.microsoft.icon" href="/favicon.ico">
   <link rel="stylesheet" href="https://at.alicdn.com/t/font_1911880_c1nvbyezg17.css">
@@ -611,452 +611,244 @@
 </header>
         <!-- 内容区域 -->
         
- <!-- prismjs 代码高亮 -->
- 
-    
-    <link href="/js/prism/prism-line-numbers.css" rel="stylesheet">
-    
-        <link href="/js/prism/prism.min.css" rel="stylesheet">
-    
+<div class="bg-dark-floor" style="position: fixed;left: 0;top: 0;width: 100%;height: 100%;z-index: -2;"></div>
+<div class="bg-light-floor-about" style="position: fixed;left: 0;top: 0;width: 100%;height: 100%;z-index: -3;"></div>
 
-    <style>
-        pre[class*="language-"] {
-            overflow-y: hidden;
-        }
-        .line-numbers .line-numbers-rows {
-            border: none;
-        }
-    </style>
-  
-
-
-<div class="bg-dark-floor" style="position: fixed;left: 0;top: 0;width: 100%;height: 100%;z-index: -1;"></div>
-
-
-  <!-- 文章详情页顶部图片和标题 -->
-
-
-
-
-<div class="post-detail-header" id="thumbnail_canvas" style="background-repeat: no-repeat; background-size: cover; 
-  background-position: center center;position: relative;background-image:url('/medias/1.jpg')">
-  <div class="post-detail-header-mask"></div>
-  <canvas id="header_canvas"style="position:absolute;bottom:0;pointer-events:none;"></canvas>
-  
-  <div class="post-detail-header_info-box">
-    <div class="title-box">
-      <span class="title">
-        
-      </span>
-    </div>
-    
-    
-      
-        <span class="post-detail-header_date">
-          <i class="fas fa-calendar"></i> 发表于：2022-08-13 |
-        </span>
-      
-
-      
-
-      
-    
-  </div>
-  
-  
-    <script src="/js/bubble/bubble.js"></script>
-  
-</div>
-
-
-
-
-
-<div class="post-detail-content row justify-position" 
-  style="padding-top: 0px;">
-  <div class="main-content">
-    <article class="post post-detail">
-      <div class="post-content">
-        
-      </div>
-      <div class="post-tags-categories">
-        
-      </div>
-      
-        <div class="copyright">
-  <ul class="post-copyright">
-    <li class="post-copyright-author">
-    <strong>作者:  </strong>xaddwell</a>
-    </li>
-    <li class="post-copyright-link">
-    <strong>文章链接:  </strong>
-    <a href="/2022/08/13/hello-world/" target="_blank" title="">http://xaddwell.github.io/2022/08/13/hello-world/</a>
-    </li>
-    <li class="post-copyright-license">
-      <strong>版权声明:   </strong>
-      本网站所有文章除特别声明外,均采用 <a rel="license" href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank" title="Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)">CC BY-NC-ND 4.0</a>
-      许可协议。转载请注明出处!
-    </li>
-  </ul>
-<div>
-      
-    </article>
-    <!-- 上一篇文章和下一篇文章 -->
-    
-      <!-- 文章详情页的上一页和下一页 -->
-<div class="post-nav">
-
-
-
-
-
-</div>
-
-    
-    
-
-    <!-- 打赏 -->
-    
-      <div id="appDonate" class="post-donate">
-  <div id="donate_board" class="donate_bar center" ref="donate">
-    <a id="btn_donate" class="btn_donate" href="javascript:;" title="打赏" @click="showDialogDrawer()"></a>
-  </div>
-  <transition name="fade">
-    <div 
-      class="donate-box-mask"
-      v-cloak 
-      v-show="visible"
-      @click="cancelDialogDrawer()"
-    >
-    </div>
-  </transition>
-  <transition name="bounce">
-    <div class="donate-box" v-cloak v-show="visible">
-      <div class="donate-box_close">
-        <i class="fas fa-times" aria-hidden="true" @click="cancelDialogDrawer" pointer></i>
-      </div>
-      <div class="donate-box_title">
-        <h4>
-          你的赏识是我前进的动力
-        </h4>
-      </div>
-      <div class="donate-box_tab">
-        <div class="Alipay" pointer :class="{'active': tabActive === 'Alipay'}" @click="changeTabActive('Alipay')">
-          支付宝
-        </div>
-        <div class="WeChatpay" pointer :class="{'active': tabActive === 'WeChatpay'}" @click="changeTabActive('WeChatpay')">
-          微信
-        </div>
-      </div>
-      <div class="donate-box_img">
-        <div class="AlipayImg" v-show="tabActive === 'Alipay'">
-          <img src="/medias/zfbzf.jpg" class="lazyload placeholder" data-srcset="/medias/zfbzf.jpg" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="支付宝打赏" />
-        </div> 
-        <div class="WeChatpayImg" v-show="tabActive === 'WeChatpay'">
-          <img src="/medias/wxzf.jpg" class="lazyload placeholder" data-srcset="/medias/wxzf.jpg" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="微信打赏" />
-        </div>
-      </div>
-    </div>
-  </transition>
-</div>
-
-<script>
-  var body = document.body || document.documentElement || window;
-  var vm = new Vue({
-    el: '#appDonate',
-    data: {
-      visible: false,
-      tabActive: 'Alipay',
-      top: 0,
-    },
-    computed: {
-    },
-    mounted() {
-    },
-    methods: {
-      showDialogDrawer() {
-        this.visible = true;
-        // 防止页面滚动，只能让弹框滚动
-        // function getScroll() {
-        //   return {
-        //     left: window.pageXOffset || document.documentElement.scrollLeft || document.body.scrollLeft || 0,
-        //     top: window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0
-        //   };
-        // }
-        this.top = $(document).scrollTop() // or getScroll().top
-        // console.log('aa', $('.main-content'));
-        body.style.cssText = 'overflow: hidden;';
-      },
-      cancelDialogDrawer() {
-        this.visible = false;
-        body.removeAttribute('style');
-        $(document).scrollTop(this.top)
-      },
-      changeTabActive(name) {
-        this.tabActive = name;
-      }
-    },
-    created() {}
-  })
-</script>
-    
-
-    <!-- 分享 -->
-    
-      <!-- https://github.com/overtrue/share.js -->
-<!-- 文章详情页的分享 -->
-<div class="social-share" data-sites="twitter,facebook,google,qq,qzone,wechat,weibo,douban,linkedin" data-wechat-qrcode-helper="<p>微信扫一扫即可分享！</p>"></div>
-
-<script src="/js/shareJs/social-share.min.js"></script>
-</script>
-
-<style>
-  .social-share {
-    margin: 20px 0;
-  }
-</style>
-
-
-    
-    
-    <!-- 评论 -->
-    <!-- 评论 -->
-
-  <div id="myComment">
-    
-      <div id="gitment-container"></div>
-
-    
-  </div>
-
-<!-- comment script in themes\hexo-theme-bamboo\layout\_partial\scripts\index.ejs -->
-
-
-  </div>
-
-  <!-- 目录 -->
-  <!-- 文章详情页右侧目录 -->
-
-  <div class="toc-aside">
-    <div class="toc-main">
-      <div class="toc-aside-title">
-        <i class="fas fa-list-ul" aria-hidden="true"></i><span>本文目录</span>
-        
-          <div class="toc-open-close">本文目录</div>
-        
-      </div>
-      <div class="toc-content">
-        <div class="toc"></div>
-      </div>
-    </div>
-  </div>
-
-  <!-- 手机端目录按钮 -->
-  <div id="toc-mobile-btn">
-    <i class="fas fa-list-ul" aria-hidden="true"></i>
-  </div>
-
-
-<script>
-  function closeToc(init) {
-    $(".toc-aside").css({'width': 0, 'padding': 0, 'transition': init ?  'noe' : 'width 0.3s' });
-    $(".toc-content").css({'width': 0});
-    $(".toc-aside-title span, .toc-aside-title i").css({'display': 'none'});
-    $(".main-content").css({'width': '75%', 'margin-left': 'auto', 'margin-right': 'auto',});
-  };
-  function openToc() {
-    $(".main-content").css({'width': '65%', 'margin-right': '10px', 'margin-left': 'calc(35% - 350px)'});
-    $(".toc-aside").css({'width': '300px', 'padding': '0 10px', 'transition': 'width 0.3s'});
-    $(".toc-content").css({'width': '300px'});
-    $(".toc-aside-title span, .toc-aside-title i").css({'display': 'inline-block'});
-  }
-  function openBtnClickFn () {
-    let openOrCloseBtn = $('.toc-aside .toc-aside-title .toc-open-close');
-    let open = eval('' || 'true');
-    openOrCloseBtn.click(function() {
-      if (open) {
-        closeToc();
-        open = false;
-      } else {
-        openToc();
-        open = true;
-      }
+<div class="about-header" style="background-image:url('https://pic3.zhimg.com/v2-084ec19a0d5c45574fdd85ba8db3c02c_r.jpg')">
+	<div class="about-header-title">
+		about
+	</div>
+	<div class="about-header-desc">
+	
+	<span class="title" id="about-header-desc"></span>
+	<script>
+  function typedFn() {
+    const el = '#about-header-desc';
+    const type = 'about';
+    let desc = '穷且益坚，不坠青云之志'
+    var typed = new Typed(el, {
+      strings: [desc],
+      startDelay: 100,
+      typeSpeed: 100,
+      loop: true,
+      backSpeed: 50,
+      showCursor: true
     });
-  };
-  openBtnClickFn();
-  initCloseTocWidth(true);
-
-  function initCloseTocWidth(init) {
-    if (window.innerWidth >= 992) {
-      let isClose = false;
-      isClose && closeToc(init)
-    }
   }
-
-  document.addEventListener('pjax:complete', function () {
-    $(".toc-aside").css({'transition': 'no'});
-  })
-  document.addEventListener('pjax:complete', function () {
-    openBtnClickFn();
-  })
-  
+  typedFn();
 </script>
-
-  <!-- 图片放大 Wrap images with fancybox support -->
-  <script src="/js/wrapImage.js"></script>
+	
+	</div>
+	<div class="mask-box"></div>
 </div>
 
-<!-- 文章详情页背景图 -->
-<div id="appBgSwiper" style="position: fixed;left: 0;top: 0;width: 100%;height: 100%;z-index: -2;"
-	:style="{'background-color': bgColor ? bgColor : 'transparent'}">
-	<transition-group tag="ul" :name="names">
-		<li v-for='(image,index) in img' :key='index' v-show="index === mark" class="bg-swiper-box">
-			<img :src="image" class="bg-swiper-img no-lazy">
-		</li>
-	</transition-group>
+
+<div id="about" class="container">
+	<div class="title">
+		<i class="fas fa-user" aria-hidden="true"></i>&nbsp;&nbsp;关于
+	</div>
+	
+	<div class="basic-info reveal">
+		<div class="subtitle">
+			<i class="fas fa-address-card-o" aria-hidden="true"></i>&nbsp;&nbsp;基本信息
+		</div>
+		<div class="items">
+			<div class="item">
+				<div class="border">
+					<i class="fas fa-heart" aria-hidden="true"></i>
+				</div>
+				<div class="text">
+					年龄：21
+				</div>
+			</div>
+
+			<div class="item">
+				<div class="border">
+					<i class="fas fa-transgender" aria-hidden="true"></i>
+				</div>
+				<div class="text">
+					性别：男
+				</div>
+			</div>
+
+			<div class="item">
+				<div class="border">
+					<i class="fas fa-map-marker" aria-hidden="true"></i>
+				</div>
+				<div class="text">
+					坐标：宁波
+				</div>
+			</div>
+
+			<div class="item">
+				<div class="border">
+					<i class="fas fa-external-link-square" aria-hidden="true"></i>
+				</div>
+				<div class="text">
+					状态：摸鱼ing
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	
+	<div class="basic-info reveal">
+		<div class="subtitle">
+			<i class="fas fa-bicycle" aria-hidden="true"></i>&nbsp;&nbsp;技能
+		</div>
+		<div class="skill">
+			
+			<div class="bar-box">
+				<span class="bar-name">Python</span>
+				<div class="bar" style="background: linear-gradient(45deg, #ff9a9e 0%, #fad0c4 99%, #fad0c4 100%); width: 90%"></div>
+				<span class="bar-number">90%</span>
+			</div>
+			
+			<div class="bar-box">
+				<span class="bar-name">C++</span>
+				<div class="bar" style="background: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%); width: 80%"></div>
+				<span class="bar-number">80%</span>
+			</div>
+			
+			<div class="bar-box">
+				<span class="bar-name">Javascript</span>
+				<div class="bar" style="background: linear-gradient(to right, #43e97b 0%, #38f9d7 100%); width: 50%"></div>
+				<span class="bar-number">50%</span>
+			</div>
+			
+			<div class="bar-box">
+				<span class="bar-name">Running</span>
+				<div class="bar" style="background: linear-gradient(45deg, #eea2a4 0%, #eea2a4 50%); width: 80%"></div>
+				<span class="bar-number">80%</span>
+			</div>
+			
+			<div class="bar-box">
+				<span class="bar-name">Cycling</span>
+				<div class="bar" style="background: linear-gradient(to left top, #a7a8bd 0%, #a7a8bd 50%); width: 70%"></div>
+				<span class="bar-number">70%</span>
+			</div>
+			
+			<div class="bar-box">
+				<span class="bar-name">Pingpang</span>
+				<div class="bar" style="background: linear-gradient(0deg, #c4d7d6 0%, #c4d7d6 50%); width: 60%"></div>
+				<span class="bar-number">60%</span>
+			</div>
+			
+			<div class="bar-box">
+				<span class="bar-name">摸鱼</span>
+				<div class="bar" style="background: linear-gradient(to right, #eea2a2 0%, #bbc1bf 19%, #57c6e1 42%, #b49fda 79%, #7ac5d8 100%); width: 100%"></div>
+				<span class="bar-number">100%</span>
+			</div>
+			
+		</div>
+	</div>
+	
+	
+	<div class="basic-info reveal">
+		<div class="subtitle">
+			<i class="fas fa-chain-broken" aria-hidden="true"></i>&nbsp;&nbsp;社交账号
+		</div>
+		<div class="socialAccounts">
+			
+				<div class="account">
+					<i class="fas fa-qq" aria-hidden="true"></i> QQ：<a target="_blank" rel="noopener" href="http://www.baidu.com">alive</a> 
+				</div>
+			
+				<div class="account">
+					<i class="fas fa-weixin" aria-hidden="true"></i> 微信：<a target="_blank" rel="noopener" href="http://www.baidu.com">xaddwell</a> 
+				</div>
+			
+				<div class="account">
+					<i class="fas fa-weixin" aria-hidden="true"></i> 知乎：<a target="_blank" rel="noopener" href="https://www.zhihu.com/people/123-40-65-85">123</a> 
+				</div>
+			
+		</div>
+	</div>
+	
+	
+	<div class="basic-info reveal">
+		<div class="subtitle">
+			<i class="fas fa-gamepad" aria-hidden="true"></i>&nbsp;&nbsp;游戏
+		</div>
+		<div class="games">
+			
+				<div class="game-item">
+					<div class="logo">
+						<img src="https://assets.misjuegos.com/2/23882/78022/300x300/2048-game.jpg" class="lazyload placeholder" data-srcset="https://assets.misjuegos.com/2/23882/78022/300x300/2048-game.jpg" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="">
+					</div>
+					<div class="name">
+						2048
+					</div>
+				</div>
+			
+		</div>
+	</div>
+	
+	
+	<div class="basic-info reveal">
+		<div class="subtitle">
+			<i class="fas fa-book" aria-hidden="true"></i>&nbsp;&nbsp;书籍
+		</div>
+		<div class="books">
+			
+				<div class="book-item">
+					<div class="logo">
+						<img src="https://img10.360buyimg.com/n1/jfs/t1960/183/2281967839/80045/56713bf5/56fb6cfdN82e03cd7.jpg" class="lazyload placeholder" data-srcset="https://img10.360buyimg.com/n1/jfs/t1960/183/2281967839/80045/56713bf5/56fb6cfdN82e03cd7.jpg" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="">
+					</div>
+					<div class="name">
+						1984
+					</div>
+				</div>
+			
+				<div class="book-item">
+					<div class="logo">
+						<img src="https://qiangguo.cnki.net/Mall/Images/Book/Cover/Big/DZ2005040027.jpg" class="lazyload placeholder" data-srcset="https://qiangguo.cnki.net/Mall/Images/Book/Cover/Big/DZ2005040027.jpg" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="">
+					</div>
+					<div class="name">
+						月亮与六便士
+					</div>
+				</div>
+			
+				<div class="book-item">
+					<div class="logo">
+						<img src="https://img11.360buyimg.com/n1/jfs/t1/102426/27/18461/63059/5e939b61E9f07a599/3298a48b716e7567.jpg" class="lazyload placeholder" data-srcset="https://img11.360buyimg.com/n1/jfs/t1/102426/27/18461/63059/5e939b61E9f07a599/3298a48b716e7567.jpg" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="">
+					</div>
+					<div class="name">
+						刀锋
+					</div>
+				</div>
+			
+				<div class="book-item">
+					<div class="logo">
+						<img src="https://img10.360buyimg.com/n1/jfs/t1/1676/27/6757/63178/5ba3b9dfE5a8e3f5b/06fe20db38423e41.jpg" class="lazyload placeholder" data-srcset="https://img10.360buyimg.com/n1/jfs/t1/1676/27/6757/63178/5ba3b9dfE5a8e3f5b/06fe20db38423e41.jpg" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="">
+					</div>
+					<div class="name">
+						面纱
+					</div>
+				</div>
+			
+				<div class="book-item">
+					<div class="logo">
+						<img src="https://pic1.zhimg.com/v2-eb163921065032e081e825082898ed7d_r.jpg" class="lazyload placeholder" data-srcset="https://pic1.zhimg.com/v2-eb163921065032e081e825082898ed7d_r.jpg" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="">
+					</div>
+					<div class="name">
+						人类简史
+					</div>
+				</div>
+			
+				<div class="book-item">
+					<div class="logo">
+						<img src="https://pic2.zhimg.com/50/v2-f8f264d5ffb568a159fe0cb893c78f41_720w.jpg" class="lazyload placeholder" data-srcset="https://pic2.zhimg.com/50/v2-f8f264d5ffb568a159fe0cb893c78f41_720w.jpg" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="">
+					</div>
+					<div class="name">
+						霍乱时期的爱情
+					</div>
+				</div>
+			
+		</div>
+	</div>
+	
 </div>
-<script>
-	var vm = new Vue({
-		el: '#appBgSwiper',
-		data: {
-			names: '' || 'fade' || 'fade', // translate-fade fade
-			mark: 0,
-			img: [],
-			bgColor: '',
-			time: null
-		},
-		methods: {   //添加方法
-			change(i, m) {
-				if (i > m) {
-					// this.names = 'fade';
-				} else if (i < m) {
-					// this.names = 'fade';
-				} else {
-					return;
-				}
-				this.mark = i;
-			},
-			prev() {
-				// this.names = 'fade';
-				this.mark--;
-				if (this.mark === -1) {
-					this.mark = 3;
-					return
-				}
-			},
-			next() {
-				// this.names = 'fade';
-				this.mark++;
-				if (this.mark === this.img.length) {
-					this.mark = 0;
-					return
-				}
-			},
-			autoPlay() {
-				// this.names = 'fade';
-				this.mark++;
-				if (this.mark === this.img.length) {
-					this.mark = 0;
-					return
-				}
-			},
-			play() {
-				let bgImgDelay = '' || '180000'
-				let delay = parseInt(bgImgDelay) || 180000;
-				this.time = setInterval(this.autoPlay, delay);
-			},
-			enter() {
-				clearInterval(this.time);
-			},
-			leave() {
-				this.play();
-			}
-		},
-		created() {
-			this.play()
-		},
-		beforeDestroy() {
-			clearInterval(this.time);
-		},
-		mounted() {
-			let prop = '' || '';
-			let isImg = prop.includes('.bmp') || prop.includes('.jpg') || prop.includes('.png') || prop.includes('.tif') || prop.includes('.gif') || prop.includes('.pcx') || prop.includes('.tga') || prop.includes('.exif') || prop.includes('.fpx') || prop.includes('.psd') || prop.includes('.cdr') || prop.includes('.pcd') || prop.includes('.dxf') || prop.includes('.ufo') || prop.includes('.eps') || prop.includes('.ai') || prop.includes('.raw') || prop.includes('.WMF') || prop.includes('.webp') || prop.includes('.jpeg') || prop.includes('http://') || prop.includes('https://')
-			if (isImg) {
-				let img = prop.split(',');
-				let configRoot = '/'
-				let arrImg = [];
-				img.forEach(el => {
-					var Expression = /http(s)?:\/\/([\w-]+\.)+[\w-]+(\/[\w- .\/?%&=]*)?/;
-					var objExp = new RegExp(Expression);
-
-					if (objExp.test(el)) {
-						// http or https
-						arrImg.push(el);
-					} else {
-						// 非http or https开头
-						// 本地文件
-						let firstStr = el.charAt(0);
-						if (firstStr == '/') {
-							el = el.substr(1); // 删除第一个字符 '/',因为 configRoot最后一个字符为 /
-						}
-						el = configRoot + el;
-						arrImg.push(el);
-					}
-				})
-				this.img = arrImg;
-			} else {
-				this.bgColor = prop;
-			}
-		}
-	})
-</script>
-
-<style>
-	.bg-swiper-box {
-		position: absolute;
-		display: block;
-		width: 100%;
-		height: 100%;
-	}
-
-	.bg-swiper-img {
-		object-fit: cover;
-		width: 100%;
-		height: 100%;
-	}
-</style>
-
-
-
-
-  <script>
-  function loadMermaid() {
-    if (document.getElementsByClassName('mermaid').length) {
-      if (window.mermaidJsLoad) mermaid.init()
-      else {
-        loadScript('https://unpkg.com/mermaid/dist/mermaid.min.js').then(() => {
-          window.mermaidJsLoad = true
-          mermaid.initialize({
-            theme: 'default',
-          })
-          if ('true') {
-            mermaid.init();
-          }
-        })
-      }
-    }
-  };
-  document.addEventListener("DOMContentLoaded", function () {
-    loadMermaid();
-  })
-
-  document.addEventListener('pjax:complete', function () {
-    loadMermaid();
-  })
-  
-</script>
-
-
       </main>
     </div>
 

@@ -175,7 +175,7 @@ pre:hover::-webkit-scrollbar-thumb:hover,
   color: #fff;
 }
 .bg-floor {
-  background: url("https://pic1.zhimg.com/80/v2-b4b71405d08bc1952025ba1bd5db54f3_1440w.jpg?source=1940ef5c");
+  background: url("https://pic1.zhimg.com/v2-c67102a94360e9abcfd073147b61da5a_r.jpg");
   background-size: cover;
   transition: all 0.3s;
 }
@@ -868,6 +868,9 @@ pre:hover::-webkit-scrollbar-thumb:hover,
   }
   .header #he-plugin-simple {
     margin-right: 0;
+  }
+  .header .blog-title {
+    margin-left: 150px;
   }
 }
 @media (max-width: 551px) {
@@ -2277,7 +2280,7 @@ pre:hover::-webkit-scrollbar-thumb:hover,
   box-sizing: border-box;
   transition: all 0.3s;
   position: relative;
-  background: url("https://img10.360buyimg.com/ddimg/jfs/t1/166587/8/21344/72069/6088c24fEda5fdeb6/f9730ab637b7ca47.png");
+  background: url("https://pic2.zhimg.com/v2-306bfb21967417c343e547cbd87d1815_r.jpg");
 }
 .motto .motto-title {
   text-align: center;
@@ -2301,7 +2304,7 @@ pre:hover::-webkit-scrollbar-thumb:hover,
   border-radius: 10px;
   box-sizing: border-box;
   transition: all 0.3s;
-  background: url("https://img10.360buyimg.com/ddimg/jfs/t1/166587/8/21344/72069/6088c24fEda5fdeb6/f9730ab637b7ca47.png");
+  background: url("https://pic2.zhimg.com/v2-bbfa4c38009ef37de5bd1ccdb7891c81_r.jpg");
 }
 .index-notice .index-notice-icon {
   color: #f00;
