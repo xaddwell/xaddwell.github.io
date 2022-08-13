@@ -651,6 +651,14 @@
             </div>
             <div class="tag-chips">
                 
+                
+                <a href="/tags/test/" title="test: 12">
+                    <span class="tag-content"
+                        title="test" style="background-color: #F8C471;">test
+                        <span class="tag-length">12</span>
+                    </span>
+                </a>
+                
             </div>
         </div>
     </div>
@@ -681,7 +689,7 @@
       if (isDark) {
         this.FISH_COLOR = '#222'; // 暗黑色，有时间把这整成一个变量
       } else {
-        this.FISH_COLOR = '' || '#42b983';
+        this.FISH_COLOR = '' || '#8abcd1';
       }
     },
     setParameters: function () {
@@ -1333,7 +1341,7 @@
       utterances.async = true;
       utterances.setAttribute('issue-term', 'pathname')
       utterances.setAttribute('theme', utteranceCommon.Theme)
-      utterances.setAttribute('repo', '')
+      utterances.setAttribute('repo', 'xaddwell/xaddwell.github.io')
       utterances.crossorigin = 'anonymous';
       utterances.src = 'https://utteranc.es/client.js';
       // content 是要插入评论的地方

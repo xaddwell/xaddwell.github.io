@@ -6,7 +6,7 @@
   <link href="http://xaddwell.github.io/atom.xml" rel="self"/>
   
   <link href="http://xaddwell.github.io/"/>
-  <updated>2022-08-13T08:29:52.416Z</updated>
+  <updated>2022-08-13T13:17:49.581Z</updated>
   <id>http://xaddwell.github.io/</id>
   
   <author>
@@ -15,6 +15,285 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>site_card</title>
+    <link href="http://xaddwell.github.io/2022/08/13/site-card/"/>
+    <id>http://xaddwell.github.io/2022/08/13/site-card/</id>
+    <published>2022-08-13T13:05:31.000Z</published>
+    <updated>2022-08-13T13:17:49.581Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;pre class=&quot;line-numbers language-bash&quot; data-language=&quot;bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;#123;&lt;/span&gt;%</summary>
+        
+      
+    
+    
+    
+    
+    <category term="test" scheme="http://xaddwell.github.io/tags/test/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>gallery_group</title>
+    <link href="http://xaddwell.github.io/2022/08/13/gallery-group/"/>
+    <id>http://xaddwell.github.io/2022/08/13/gallery-group/</id>
+    <published>2022-08-13T13:04:13.000Z</published>
+    <updated>2022-08-13T13:16:39.804Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;pre class=&quot;line-numbers language-markup&quot; data-language=&quot;markup&quot;&gt;&lt;code class=&quot;language-markup&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token</summary>
+        
+      
+    
+    
+    
+    
+    <category term="test" scheme="http://xaddwell.github.io/tags/test/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>fold_demo</title>
+    <link href="http://xaddwell.github.io/2022/08/13/fold-demo/"/>
+    <id>http://xaddwell.github.io/2022/08/13/fold-demo/</id>
+    <published>2022-08-13T13:02:24.000Z</published>
+    <updated>2022-08-13T13:16:25.616Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;pre class=&quot;line-numbers language-bash&quot; data-language=&quot;bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;#123;&lt;/span&gt;%</summary>
+        
+      
+    
+    
+    
+    
+    <category term="test" scheme="http://xaddwell.github.io/tags/test/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>check_box</title>
+    <link href="http://xaddwell.github.io/2022/08/13/check-box/"/>
+    <id>http://xaddwell.github.io/2022/08/13/check-box/</id>
+    <published>2022-08-13T13:01:23.000Z</published>
+    <updated>2022-08-13T13:16:08.030Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;pre class=&quot;line-numbers language-markdown&quot; data-language=&quot;markdown&quot;&gt;&lt;code class=&quot;language-markdown&quot;&gt;&amp;#123;% checkbox 纯文本测试 %&amp;#125;
+&amp;#123;%</summary>
+        
+      
+    
+    
+    
+    
+    <category term="test" scheme="http://xaddwell.github.io/tags/test/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>time_line</title>
+    <link href="http://xaddwell.github.io/2022/08/13/time-line/"/>
+    <id>http://xaddwell.github.io/2022/08/13/time-line/</id>
+    <published>2022-08-13T13:00:45.000Z</published>
+    <updated>2022-08-13T13:17:56.957Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;pre class=&quot;line-numbers language-markdown&quot; data-language=&quot;markdown&quot;&gt;&lt;code class=&quot;language-markdown&quot;&gt;&amp;#123;% issues timeline |</summary>
+        
+      
+    
+    
+    
+    
+    <category term="test" scheme="http://xaddwell.github.io/tags/test/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>progress_bar</title>
+    <link href="http://xaddwell.github.io/2022/08/13/progress-bar/"/>
+    <id>http://xaddwell.github.io/2022/08/13/progress-bar/</id>
+    <published>2022-08-13T12:59:42.000Z</published>
+    <updated>2022-08-13T13:17:39.328Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;pre class=&quot;line-numbers language-none&quot;&gt;&lt;code class=&quot;language-none&quot;&gt;&amp;#123;% progress 70 danger 进度条测试 %&amp;#125;
+&amp;#123;% progress 60 info 进度条测试</summary>
+        
+      
+    
+    
+    
+    
+    <category term="test" scheme="http://xaddwell.github.io/tags/test/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>mermaid</title>
+    <link href="http://xaddwell.github.io/2022/08/13/mermaid/"/>
+    <id>http://xaddwell.github.io/2022/08/13/mermaid/</id>
+    <published>2022-08-13T12:58:26.000Z</published>
+    <updated>2022-08-13T13:17:30.993Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;pre class=&quot;line-numbers language-yaml&quot; data-language=&quot;yaml&quot;&gt;&lt;code class=&quot;language-yaml&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;#123;&lt;/span&gt;%</summary>
+        
+      
+    
+    
+    
+    
+    <category term="test" scheme="http://xaddwell.github.io/tags/test/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>get_file</title>
+    <link href="http://xaddwell.github.io/2022/08/13/get-file/"/>
+    <id>http://xaddwell.github.io/2022/08/13/get-file/</id>
+    <published>2022-08-13T12:57:58.000Z</published>
+    <updated>2022-08-13T13:16:51.859Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;pre class=&quot;line-numbers language-markdown&quot; data-language=&quot;markdown&quot;&gt;&lt;code class=&quot;language-markdown&quot;&gt;&lt;span class=&quot;token title</summary>
+        
+      
+    
+    
+    
+    
+    <category term="test" scheme="http://xaddwell.github.io/tags/test/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>lineimage_demo</title>
+    <link href="http://xaddwell.github.io/2022/08/13/lineimage-demo/"/>
+    <id>http://xaddwell.github.io/2022/08/13/lineimage-demo/</id>
+    <published>2022-08-13T12:56:32.000Z</published>
+    <updated>2022-08-13T13:17:18.591Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;pre class=&quot;line-numbers language-bash&quot; data-language=&quot;bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;这是 
+&lt;span class=&quot;token punctuation&quot;&gt;&amp;#123;&lt;/span&gt;%</summary>
+        
+      
+    
+    
+    
+    
+    <category term="test" scheme="http://xaddwell.github.io/tags/test/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>video_demo</title>
+    <link href="http://xaddwell.github.io/2022/08/13/video-demo/"/>
+    <id>http://xaddwell.github.io/2022/08/13/video-demo/</id>
+    <published>2022-08-13T12:55:28.000Z</published>
+    <updated>2022-08-13T13:18:36.180Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;pre class=&quot;line-numbers language-bash&quot; data-language=&quot;bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;#123;&lt;/span&gt;%</summary>
+        
+      
+    
+    
+    
+    
+    <category term="test" scheme="http://xaddwell.github.io/tags/test/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>user_card</title>
+    <link href="http://xaddwell.github.io/2022/08/13/user-card/"/>
+    <id>http://xaddwell.github.io/2022/08/13/user-card/</id>
+    <published>2022-08-13T12:54:59.000Z</published>
+    <updated>2022-08-13T13:18:04.571Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;pre class=&quot;line-numbers language-bash&quot; data-language=&quot;bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; &lt;span</summary>
+        
+      
+    
+    
+    
+    
+    <category term="test" scheme="http://xaddwell.github.io/tags/test/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>audio_demo</title>
+    <link href="http://xaddwell.github.io/2022/08/13/audio-demo/"/>
+    <id>http://xaddwell.github.io/2022/08/13/audio-demo/</id>
+    <published>2022-08-13T12:53:08.000Z</published>
+    <updated>2022-08-13T13:15:00.191Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;div class=&quot;audio&quot;&gt;&lt;audio controls preload&gt;&lt;source</summary>
+        
+      
+    
+    
+    
+    
+    <category term="test" scheme="http://xaddwell.github.io/tags/test/"/>
+    
+  </entry>
   
   <entry>
     <title></title>
