@@ -291,7 +291,7 @@ pre:hover::-webkit-scrollbar-thumb:hover,
   padding: 8px 16px;
 }
 #l_side .side_blogger {
-  order: ;
+  order: -1000;
 }
 #l_side .side_blogger .content {
   padding: 0;
@@ -394,7 +394,7 @@ pre:hover::-webkit-scrollbar-thumb:hover,
 }
 #l_side .side_category {
   min-height: auto;
-  order: ;
+  order: -997;
   background: #fff;
 }
 #l_side .side_category .content {
@@ -460,7 +460,7 @@ pre:hover::-webkit-scrollbar-thumb:hover,
 }
 #l_side .side_tagcloud {
   background: #fff;
-  order: ;
+  order: -998;
 }
 #l_side .side_tagcloud .content {
   text-align: justify;
@@ -478,7 +478,7 @@ pre:hover::-webkit-scrollbar-thumb:hover,
   border-bottom: 1px solid #8abcd1;
 }
 #l_side .side_recent_post {
-  order: ;
+  order: -995;
   background: #fff;
 }
 #l_side .side_recent_post .aside-list .aside-list-item {
@@ -526,7 +526,7 @@ pre:hover::-webkit-scrollbar-thumb:hover,
   color: #8abcd1;
 }
 #l_side .side_archives {
-  order: ;
+  order: -996;
   background: #fff;
 }
 #l_side .side_archives .card-archive-list {
@@ -563,7 +563,7 @@ pre:hover::-webkit-scrollbar-thumb:hover,
   text-align: right;
 }
 #l_side .side_webinfo {
-  order: ;
+  order: -994;
   background: #fff;
 }
 #l_side .side_webinfo .webinfo-item {
