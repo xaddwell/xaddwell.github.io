@@ -4,6 +4,76 @@
   
     
     <entry>
+      <title>issues-sites</title>
+      <link href="/2022/08/17/issues-sites/"/>
+      <url>/2022/08/17/issues-sites/</url>
+      
+        <content type="html"><![CDATA[<div class="issues-api sites"api="https://api.github.com/repos/yuang01/friends/issues?sort=updated&state=open&page=1&per_page=100&labels=active"></div><div class="issues-api sites"api="https://api.github.com/repos/yuang01/examples/issues?sort=updated&state=open&page=1&per_page=100"group="version:版本：v3.0,版本：v2.0,版本：v1.0"></div>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> test </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>link_demo</title>
+      <link href="/2022/08/16/link-demo/"/>
+      <url>/2022/08/16/link-demo/</url>
+      
+        <content type="html"><![CDATA[<div class="link-group"><div class="tagLink"><a class="link-card" title="点击跳转到百度" href="http://www.baidu.com"><span class="link-card-backdrop" style="background-image: url(https://cdn.pixabay.com/photo/2018/12/05/13/41/panda-3857754__340.jpg)"></span><div class="left"><img src="https://cdn.pixabay.com/photo/2018/12/05/13/41/panda-3857754__340.jpg" class="lazyload placeholder" data-srcset="https://cdn.pixabay.com/photo/2018/12/05/13/41/panda-3857754__340.jpg" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp"/></div><div class="right"><p class="text">点击跳转到百度</p><p class="url">http://www.baidu.com</p></div></a></div><div class="tagLink"><a class="link-card" title="点击跳转到百度" href="http://www.baidu.com"><span class="link-card-backdrop" style="background-image: url(https://cdn.pixabay.com/photo/2018/12/05/13/41/panda-3857754__340.jpg)"></span><div class="left"><img src="https://cdn.pixabay.com/photo/2018/12/05/13/41/panda-3857754__340.jpg" class="lazyload placeholder" data-srcset="https://cdn.pixabay.com/photo/2018/12/05/13/41/panda-3857754__340.jpg" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp"/></div><div class="right"><p class="text">点击跳转到百度</p><p class="url">http://www.baidu.com</p></div></a></div><div class="tagLink"><a class="link-card" title="点击跳转到百度" href="http://www.baidu.com"><span class="link-card-backdrop" style="background-image: url(https://cdn.pixabay.com/photo/2018/12/05/13/41/panda-3857754__340.jpg)"></span><div class="left"><img src="https://cdn.pixabay.com/photo/2018/12/05/13/41/panda-3857754__340.jpg" class="lazyload placeholder" data-srcset="https://cdn.pixabay.com/photo/2018/12/05/13/41/panda-3857754__340.jpg" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp"/></div><div class="right"><p class="text">点击跳转到百度</p><p class="url">http://www.baidu.com</p></div></a></div><div class="tagLink"><a class="link-card" title="点击跳转到百度" href="http://www.baidu.com"><span class="link-card-backdrop" style="background-image: url(https://cdn.pixabay.com/photo/2018/12/05/13/41/panda-3857754__340.jpg)"></span><div class="left"><img src="https://cdn.pixabay.com/photo/2018/12/05/13/41/panda-3857754__340.jpg" class="lazyload placeholder" data-srcset="https://cdn.pixabay.com/photo/2018/12/05/13/41/panda-3857754__340.jpg" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp"/></div><div class="right"><p class="text">点击跳转到百度</p><p class="url">http://www.baidu.com</p></div></a></div></div>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> test </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>github_card</title>
+      <link href="/2022/08/16/github-card/"/>
+      <url>/2022/08/16/github-card/</url>
+      
+        <content type="html"><![CDATA[<table><thead><tr><th><a class="ghcard" rel="external nofollow noopener noreferrer" href="https://github.com/yuang01"><img src="https://github-readme-stats.vercel.app/api/?username=yuang01&show_owner=true" class="lazyload placeholder" data-srcset="https://github-readme-stats.vercel.app/api/?username=yuang01&show_owner=true" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp"/></a></th><th><a class="ghcard" rel="external nofollow noopener noreferrer" href="https://github.com/yuang01"><img src="https://github-readme-stats.vercel.app/api/?username=yuang01&theme=vue&show_owner=true" class="lazyload placeholder" data-srcset="https://github-readme-stats.vercel.app/api/?username=yuang01&theme=vue&show_owner=true" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp"/></a></th></tr></thead><tbody><tr><td><a class="ghcard" rel="external nofollow noopener noreferrer" href="https://github.com/yuang01"><img src="https://github-readme-stats.vercel.app/api/?username=yuang01&theme=buefy&show_owner=true" class="lazyload placeholder" data-srcset="https://github-readme-stats.vercel.app/api/?username=yuang01&theme=buefy&show_owner=true" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp"/></a></td><td><a class="ghcard" rel="external nofollow noopener noreferrer" href="https://github.com/yuang01"><img src="https://github-readme-stats.vercel.app/api/?username=yuang01&theme=solarized-light&show_owner=true" class="lazyload placeholder" data-srcset="https://github-readme-stats.vercel.app/api/?username=yuang01&theme=solarized-light&show_owner=true" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp"/></a></td></tr><tr><td><a class="ghcard" rel="external nofollow noopener noreferrer" href="https://github.com/yuang01"><img src="https://github-readme-stats.vercel.app/api/?username=yuang01&theme=onedark&show_owner=true" class="lazyload placeholder" data-srcset="https://github-readme-stats.vercel.app/api/?username=yuang01&theme=onedark&show_owner=true" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp"/></a></td><td><a class="ghcard" rel="external nofollow noopener noreferrer" href="https://github.com/yuang01"><img src="https://github-readme-stats.vercel.app/api/?username=yuang01&theme=solarized-dark&show_owner=true" class="lazyload placeholder" data-srcset="https://github-readme-stats.vercel.app/api/?username=yuang01&theme=solarized-dark&show_owner=true" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp"/></a></td></tr><tr><td><a class="ghcard" rel="external nofollow noopener noreferrer" href="https://github.com/yuang01"><img src="https://github-readme-stats.vercel.app/api/?username=yuang01&theme=algolia&show_owner=true" class="lazyload placeholder" data-srcset="https://github-readme-stats.vercel.app/api/?username=yuang01&theme=algolia&show_owner=true" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp"/></a></td><td><a class="ghcard" rel="external nofollow noopener noreferrer" href="https://github.com/yuang01"><img src="https://github-readme-stats.vercel.app/api/?username=yuang01&theme=calm&show_owner=true" class="lazyload placeholder" data-srcset="https://github-readme-stats.vercel.app/api/?username=yuang01&theme=calm&show_owner=true" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp"/></a></td></tr></tbody></table><table><thead><tr><th><a class="ghcard" rel="external nofollow noopener noreferrer" href="https://github.com/yuang01/hexo-theme-bamboo"><img src="https://github-readme-stats.vercel.app/api/pin/?username=yuang01&repo=hexo-theme-bamboo&show_owner=true" class="lazyload placeholder" data-srcset="https://github-readme-stats.vercel.app/api/pin/?username=yuang01&repo=hexo-theme-bamboo&show_owner=true" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp"/></a></th><th><a class="ghcard" rel="external nofollow noopener noreferrer" href="https://github.com/yuang01/hexo-theme-bamboo"><img src="https://github-readme-stats.vercel.app/api/pin/?username=yuang01&repo=hexo-theme-bamboo&theme=vue&show_owner=true" class="lazyload placeholder" data-srcset="https://github-readme-stats.vercel.app/api/pin/?username=yuang01&repo=hexo-theme-bamboo&theme=vue&show_owner=true" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp"/></a></th></tr></thead><tbody><tr><td><a class="ghcard" rel="external nofollow noopener noreferrer" href="https://github.com/yuang01/hexo-theme-bamboo"><img src="https://github-readme-stats.vercel.app/api/pin/?username=yuang01&repo=hexo-theme-bamboo&theme=buefy&show_owner=true" class="lazyload placeholder" data-srcset="https://github-readme-stats.vercel.app/api/pin/?username=yuang01&repo=hexo-theme-bamboo&theme=buefy&show_owner=true" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp"/></a></td><td><a class="ghcard" rel="external nofollow noopener noreferrer" href="https://github.com/yuang01/hexo-theme-bamboo"><img src="https://github-readme-stats.vercel.app/api/pin/?username=yuang01&repo=hexo-theme-bamboo&theme=solarized-light&show_owner=true" class="lazyload placeholder" data-srcset="https://github-readme-stats.vercel.app/api/pin/?username=yuang01&repo=hexo-theme-bamboo&theme=solarized-light&show_owner=true" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp"/></a></td></tr><tr><td><a class="ghcard" rel="external nofollow noopener noreferrer" href="https://github.com/yuang01/hexo-theme-bamboo"><img src="https://github-readme-stats.vercel.app/api/pin/?username=yuang01&repo=hexo-theme-bamboo&theme=onedark&show_owner=true" class="lazyload placeholder" data-srcset="https://github-readme-stats.vercel.app/api/pin/?username=yuang01&repo=hexo-theme-bamboo&theme=onedark&show_owner=true" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp"/></a></td><td><a class="ghcard" rel="external nofollow noopener noreferrer" href="https://github.com/yuang01/hexo-theme-bamboo"><img src="https://github-readme-stats.vercel.app/api/pin/?username=yuang01&repo=hexo-theme-bamboo&theme=solarized-dark&show_owner=true" class="lazyload placeholder" data-srcset="https://github-readme-stats.vercel.app/api/pin/?username=yuang01&repo=hexo-theme-bamboo&theme=solarized-dark&show_owner=true" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp"/></a></td></tr><tr><td><a class="ghcard" rel="external nofollow noopener noreferrer" href="https://github.com/yuang01/hexo-theme-bamboo"><img src="https://github-readme-stats.vercel.app/api/pin/?username=yuang01&repo=hexo-theme-bamboo&theme=algolia&show_owner=true" class="lazyload placeholder" data-srcset="https://github-readme-stats.vercel.app/api/pin/?username=yuang01&repo=hexo-theme-bamboo&theme=algolia&show_owner=true" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp"/></a></td><td><a class="ghcard" rel="external nofollow noopener noreferrer" href="https://github.com/yuang01/hexo-theme-bamboo"><img src="https://github-readme-stats.vercel.app/api/pin/?username=yuang01&repo=hexo-theme-bamboo&theme=calm&show_owner=true" class="lazyload placeholder" data-srcset="https://github-readme-stats.vercel.app/api/pin/?username=yuang01&repo=hexo-theme-bamboo&theme=calm&show_owner=true" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp"/></a></td></tr></tbody></table>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>noteblock</title>
+      <link href="/2022/08/16/noteblock/"/>
+      <url>/2022/08/16/noteblock/</url>
+      
+        <content type="html"><![CDATA[<div class="note base"><p><strong>标题（可选）</strong></p><p>asdsd</p></div><div class="note quote"><p><strong>标题（可选）</strong></p><p>asdsd</p></div><div class="note warning"><p><strong>标题（可选）</strong></p><p>asdsd</p></div><div class="note success"><p><strong>标题（可选）</strong></p><p>asdsd</p></div><div class="note danger"><p><strong>标题（可选）</strong></p><p>asdsd</p></div><div class="note info"><p><strong>标题（可选）</strong></p><p>asdsd</p></div>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> test </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title></title>
       <link href="/2022/08/16/hello-world/"/>
       <url>/2022/08/16/hello-world/</url>
@@ -40,7 +110,7 @@
       <link href="/2022/08/13/gallery-group/"/>
       <url>/2022/08/13/gallery-group/</url>
       
-        <content type="html"><![CDATA[]]></content>
+        <content type="html"><![CDATA[<div class="gallery-group-main">      <figure class="gallery-group">  <img class="gallery-group-img" src='https://pic1.zhimg.com/80/v2-23c3820e8abfb1cef689531af2dc6d09_1440w.jpg?source=1940ef5c' alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">壁纸</div>  <p>收藏的一些壁纸</p>  <a href='/gallery/bizhi'></a>  </figcaption>  </figure>        <figure class="gallery-group">  <img class="gallery-group-img" src='https://pic1.zhimg.com/80/v2-8d542d68cbbf0e5f503da9e3f72b8447_1440w.jpg?source=1940ef5c' alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">古典图片</div>  <p>中国古典图片</p>  <a href='/gallery/gudian'></a>  </figcaption>  </figure>        <figure class="gallery-group">  <img class="gallery-group-img" src='https://pic1.zhimg.com/80/v2-56164ef0695767475935c9e019c594ae_1440w.jpg?source=1940ef5c' alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">风景</div>  <p>风景图片</p>  <a href='/gallery/fengjing'></a>  </figcaption>  </figure>  </div>]]></content>
       
       
       
