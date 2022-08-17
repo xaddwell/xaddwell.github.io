@@ -677,22 +677,19 @@
   <div class="main-content">
     <article class="post post-detail">
       <div class="post-content">
-        <pre class="line-numbers language-yaml" data-language="yaml"><code class="language-yaml"><span class="token punctuation">&#123;</span>% mermaid %<span class="token punctuation">&#125;</span>
-pie
+        <div class="mermaid">pie
     title Key elements in Product X
-    <span class="token key atrule">"Calcium"</span> <span class="token punctuation">:</span> <span class="token number">42.96</span>
-    <span class="token key atrule">"Potassium"</span> <span class="token punctuation">:</span> <span class="token number">50.05</span>
-    <span class="token key atrule">"Magnesium"</span> <span class="token punctuation">:</span> <span class="token number">10.01</span>
-    <span class="token key atrule">"Iron"</span> <span class="token punctuation">:</span>  <span class="token number">5</span>
-<span class="token punctuation">&#123;</span>% endmermaid %<span class="token punctuation">&#125;</span>
+    &quot;Calcium&quot; : 42.96
+    &quot;Potassium&quot; : 50.05
+    &quot;Magnesium&quot; : 10.01
+    &quot;Iron&quot; :  5</div>
 
-<span class="token punctuation">&#123;</span>% mermaid %<span class="token punctuation">&#125;</span>
-graph TD;
-    A<span class="token punctuation">-</span><span class="token punctuation">-</span><span class="token punctuation">></span>B;
-    A<span class="token punctuation">-</span><span class="token punctuation">-</span><span class="token punctuation">></span>C;
-    B<span class="token punctuation">-</span><span class="token punctuation">-</span><span class="token punctuation">></span>D;
-    C<span class="token punctuation">-</span><span class="token punctuation">-</span><span class="token punctuation">></span>D;
-<span class="token punctuation">&#123;</span>% endmermaid %<span class="token punctuation">&#125;</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<div class="mermaid">graph TD;
+    A--&gt;B;
+    A--&gt;C;
+    B--&gt;D;
+    C--&gt;D;</div>
+
       </div>
       <div class="post-tags-categories">
         
@@ -744,8 +741,14 @@ graph TD;
       </div>
       
       <!-- <div class="content">
-        &#123;% progress 70 danger 进度条测试 %&#125;
-&#123;% progress 60
+        进度条测试
+进度条测试
+进度条测试
+进度条测试
+进度条测试
+自定义颜色(Custom colors)
+进度条测试
+进度条
       </div> -->
     </a>
   </div>
@@ -756,16 +759,21 @@ graph TD;
   <div class="post-nav-next post-nav-item">
     <div class="post-nav-img" style="background-size: cover; 
       background-position: center center;">
-      <img class="lazyload lazyload placeholder" src="/medias/1.jpg" class="lazyload placeholder" data-srcset="/medias/1.jpg" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" src="" alt="">
+      <img class="lazyload lazyload placeholder" src="/medias/14.jpg" class="lazyload placeholder" data-srcset="/medias/14.jpg" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" src="" alt="">
     </div>
-    <a href="/2022/08/13/get-file/" class="post-nav-link">
+    <a href="/2022/08/13/lineimage-demo/" class="post-nav-link">
       <div class="title">
         下一篇: <i class="fas fa-angle-right"></i>
-        <div class="title-text">get_file</div>
+        <div class="title-text">lineimage_demo</div>
       </div>
       <!-- <div class="content">
-        ## 获取`img`文件夹下的.txt .pdf文件
-&#123;% getFiles img, txt pdf,  %
+        这是 
+ 一段话。
+
+这又是  一段话。
+这又是  一段话。
+设置占位背景色
+
       </div> -->
     </a>
   </div>
