@@ -3,7 +3,7 @@ var htmer_time_time = null;
 
 function setTime() {
   var create_time = Math.round(
-    new Date(Date.UTC(2018, 10, 26, 6, 45, 0)).getTime() / 1000
+    new Date(Date.UTC(2000, 12, 4, 12, 45, 0)).getTime() / 1000
   );
   var timestamp = Math.round(
     (new Date().getTime() + 8 * 60 * 60 * 1000) / 1000
