@@ -12,7 +12,7 @@ title                    : "Jiahao Chen"
 title_separator          : "-"
 name                     : &name "Jiahao Chen"
 description              : &description "personal description"
-url                      : https://xaddwell.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : https://xaddwell.github.io/about # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "xaddwell/xaddwell.github.io"
 
