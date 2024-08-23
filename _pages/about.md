@@ -1,6 +1,14 @@
+<!--
+ * @Description: 
+ * @Version: 1.0
+ * @Author: Jiahao Chen
+ * @Date: 2024-08-23 23:38:47
+ * @LastEditors: Jiahao Chen
+ * @LastEditTime: 2024-08-24 00:17:54
+-->
 ---
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "Greetings and Welcome to My Homepage"
 author_profile: true
 redirect_from: 
   - /about/
