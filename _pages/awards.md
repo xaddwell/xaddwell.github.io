@@ -6,5 +6,4 @@ redirect_from:
   - "/awards.html"
 ---
 
-Awards
----
+
