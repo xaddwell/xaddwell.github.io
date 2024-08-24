@@ -17,6 +17,6 @@ main:
   - title: "Services"
     url: /services/
     
-  # - title: "Guide"
-  #   url: /markdown/
-  # 
+  - title: "Awards"
+    url: /awards/
+
