@@ -6,8 +6,8 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-title                    : "Jiahao Chen - Homepage"
-description              : "Zhejiang University"
+title                    : "Jiahao Chen"
+description              : "Student at NESA Lab, ZJU"
 repository               : "xaddwell/xaddwell.github.io"
 google_scholar_stats_use_cdn : true
 
