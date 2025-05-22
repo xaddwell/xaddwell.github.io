@@ -29,9 +29,9 @@ I am currently a Second Year Ph.D. Candidate at Zhejiang University, advised by 
 
 # 📝 Publications 
 
-- [Enhancing Adversarial Transferability with Adversarial Weight Tuning](https://ojs.aaai.org/index.php/AAAI/article/view/32203), **Jiahao Chen**, Zhou Feng, Rui Zeng, Yuwen Pu, Chunyi Zhou, Yi Jiang, Yuyou Gan, Jinbao Li, Shouling Ji, AAAI 2025. [CCF-A]
-- [CAMH: Advancing Model Hijacking Attack in Machine Learning](https://ojs.aaai.org/index.php/AAAI/article/view/33884), Xing He, **Jiahao Chen**, Yuwen Pu, Qingming Li, Chunyi Zhou, Yingcai Wu, Jinbao Li, Shouling Ji, AAAI 2025. [CCF-A]
-- [Facial data minimization: Shallow model as your privacy filter](https://ieeexplore.ieee.org/abstract/document/10975146/), Yuwen Pu, **Jiahao Chen**, Jiayu Pan, Diqun Yan, Xuhong Zhang, Shouling Ji, TDSC 2025. [CCF-A]
+- [Enhancing Adversarial Transferability with Adversarial Weight Tuning](https://ojs.aaai.org/index.php/AAAI/article/view/32203), **Jiahao Chen**<sup>*</sup>, Zhou Feng<sup>*</sup>, Rui Zeng, Yuwen Pu, Chunyi Zhou, Yi Jiang, Yuyou Gan, Jinbao Li, Shouling Ji, AAAI 2025. [CCF-A]
+- [CAMH: Advancing Model Hijacking Attack in Machine Learning](https://ojs.aaai.org/index.php/AAAI/article/view/33884), Xing He<sup>*</sup>, **Jiahao Chen**<sup>*</sup>, Yuwen Pu, Qingming Li, Chunyi Zhou, Yingcai Wu, Jinbao Li, Shouling Ji, AAAI 2025. [CCF-A]
+- [Facial data minimization: Shallow model as your privacy filter](https://ieeexplore.ieee.org/abstract/document/10975146/), Yuwen Pu<sup>*</sup>, **Jiahao Chen**<sup>*</sup>, Jiayu Pan, Diqun Yan, Xuhong Zhang, Shouling Ji, TDSC 2025. [CCF-A]
 - [Universal defensive underpainting patch: Making your text invisible to optical character recognition](https://dl.acm.org/doi/abs/10.1145/3581783.3613768), JiaCheng Deng, Li Dong, **Jiahao Chen**, Diqun Yan, Rangding Wang, Dengpan Ye, Lingchen Zhao, Jinyu Tian, ACM MM 2020. [CCF-A]
 
 
