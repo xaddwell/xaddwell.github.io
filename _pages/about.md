@@ -40,8 +40,8 @@ I am currently a Second Year Ph.D. Candidate at Zhejiang University, advised by 
 - *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  -->
 
 # 📖 Educations
-- *2023.09 - now*, PhD Candidate, Cyber Security, Zhejiang University.
-- *2019.09 - 2023.06*, B.E., Computer Science, Ningbo University.
+- *2023.09 - now*, Ph.D. Candidate, Electronic Information, College of Computer Science and Technology, Zhejiang University.
+- *2019.09 - 2023.06*, B.E., Computer Science, YangMing College, Ningbo University.
 
 # 💬 Service
 - *Reviewers:* IEEE TDSC, IEEE TIFS, AAAI, ACM MM
