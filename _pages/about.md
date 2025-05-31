@@ -24,7 +24,7 @@ I am currently a Second Year Ph.D. Candidate at Zhejiang University, advised by 
 - *2025.05*: &nbsp;🎉🎉 One paper was accepted by ACL 2025.
 - *2025.04*: &nbsp;🎉🎉 One paper was accepted by TDSC 2025.
 - *2025.04*: &nbsp;🎉🎉 One paper was accepted by ICMR 2025 Oral.
-- *2025.03*: &nbsp;🎉🎉 One paper was accepted by ICME 2025.
+- *2025.03*: &nbsp;🎉🎉 One paper was accepted by ICME 2025 Oral.
 - *2024.10*: &nbsp;🎉🎉 Two papers were accepted by AAAI 2025.
 
 # 📝 Publications 
@@ -33,9 +33,9 @@ I am currently a Second Year Ph.D. Candidate at Zhejiang University, advised by 
 - [CAMH: Advancing Model Hijacking Attack in Machine Learning](https://ojs.aaai.org/index.php/AAAI/article/view/33884), Xing He<sup>*</sup>, **Jiahao Chen**<sup>*</sup>, Yuwen Pu, Qingming Li, Chunyi Zhou, Yingcai Wu, Jinbao Li, Shouling Ji, AAAI 2025. [CCF-A]
 - [Facial data minimization: Shallow model as your privacy filter](https://ieeexplore.ieee.org/abstract/document/10975146/), Yuwen Pu<sup>*</sup>, **Jiahao Chen**<sup>*</sup>, Jiayu Pan, Diqun Yan, Xuhong Zhang, Shouling Ji, TDSC 2025. [CCF-A]
 - [Universal defensive underpainting patch: Making your text invisible to optical character recognition](https://dl.acm.org/doi/abs/10.1145/3581783.3613768), JiaCheng Deng, Li Dong, **Jiahao Chen**, Diqun Yan, Rangding Wang, Dengpan Ye, Lingchen Zhao, Jinyu Tian, ACM MM 2023. [CCF-A]
-- [Poison in the Well: Feature Embedding Disruption in Backdoor Attacks](), Zhou Feng, **Jiahao Chen**, Chunyi Zhou, Yuwen Pu, Qingming Li, Shouling Ji, ICME 2025. [CCF-B]
-- [Enhancing Adversarial Transferability via Self-Ensemble Feature Alignment](), Zhiming Zhao, **Jiahao Chen**, Qingming Li, Chunyi Zhou, Shouling Ji, ICMR 2025. [CCF-B]
-
+- [Poison in the Well: Feature Embedding Disruption in Backdoor Attacks](), Zhou Feng, **Jiahao Chen**, Chunyi Zhou, Yuwen Pu, Qingming Li, Shouling Ji, ICME 2025 Oral. [CCF-B]
+- [Enhancing Adversarial Transferability via Self-Ensemble Feature Alignment](), Zhiming Zhao, **Jiahao Chen**, Qingming Li, Chunyi Zhou, Shouling Ji, ICMR 2025 Oral. [CCF-B]
+- [AdvUSL: Targeted Adversarial Attack against U-shaped Split Learning](), Yunxiao He, Chunqiang Hu, Yuwen Pu, **Jiahao Chen**, Xingwang Li, MASS 2024. [CCF-C]
 
 <!-- # 🎖 Honors and Awards
 - *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
