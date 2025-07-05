@@ -21,6 +21,7 @@ I am currently a Second Year Ph.D. Candidate at Zhejiang University, advised by 
 
 
 # 🔥 News
+- *2025.07*: &nbsp;🎉🎉 One paper was accepted by MM 2025.
 - *2025.05*: &nbsp;🎉🎉 One paper was accepted by ACL 2025.
 - *2025.04*: &nbsp;🎉🎉 One paper was accepted by TDSC 2025.
 - *2025.04*: &nbsp;🎉🎉 One paper was accepted by ICMR 2025 Oral.
