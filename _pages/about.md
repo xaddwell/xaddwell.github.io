@@ -34,7 +34,7 @@ I am currently a Second Year Ph.D. Candidate at Zhejiang University, advised by 
 - [CAMH: Advancing Model Hijacking Attack in Machine Learning](https://ojs.aaai.org/index.php/AAAI/article/view/33884), Xing He<sup>*</sup>, **Jiahao Chen**<sup>*</sup>, Yuwen Pu, Qingming Li, Chunyi Zhou, Yingcai Wu, Jinbao Li, Shouling Ji, AAAI 2025. [CCF-A] [[Code](https://github.com/healthandAI/CAMH)]
 - [Facial data minimization: Shallow model as your privacy filter](https://ieeexplore.ieee.org/abstract/document/10975146/), Yuwen Pu<sup>*</sup>, **Jiahao Chen**<sup>*</sup>, Jiayu Pan, Diqun Yan, Xuhong Zhang, Shouling Ji, TDSC 2025. [CCF-A]
 - [Enkidu: Universal Frequential Perturbation for Real-Time Audio Privacy Protection against Voice Deepfakes](), Zhou Feng, **Jiahao Chen**, Chunyi Zhou, Yuwen Pu, Qingming Li, Tianyu Du, Shouling Ji, MM 2025. [CCF-A]
-- [TWIST: Text-encoder Weight-editing for Inserting Secret Trojans in Text-to-Image Models](), Xindi Li, Zhe Liu, Tong Zhang, **Jiahao Chen**, Qingming Li, Jinbao Li, Shouling Ji, ACL 2025. [CCF-A]
+- [TWIST: Text-encoder Weight-editing for Inserting Secret Trojans in Text-to-Image Models](https://aclanthology.org/2025.acl-long.541/), Xindi Li, Zhe Liu, Tong Zhang, **Jiahao Chen**, Qingming Li, Jinbao Li, Shouling Ji, ACL 2025 Main. [CCF-A]
 - [Universal defensive underpainting patch: Making your text invisible to optical character recognition](https://dl.acm.org/doi/abs/10.1145/3581783.3613768), JiaCheng Deng, Li Dong, **Jiahao Chen**, Diqun Yan, Rangding Wang, Dengpan Ye, Lingchen Zhao, Jinyu Tian, ACM MM 2023. [CCF-A] [[Code](https://github.com/QRICKDD/UDUP)]
 - [Poison in the Well: Feature Embedding Disruption in Backdoor Attacks](), Zhou Feng, **Jiahao Chen**, Chunyi Zhou, Yuwen Pu, Qingming Li, Shouling Ji, ICME 2025 Oral. [CCF-B]
 - [Enhancing Adversarial Transferability via Self-Ensemble Feature Alignment](), Zhiming Zhao, **Jiahao Chen**, Qingming Li, Chunyi Zhou, Shouling Ji, ICMR 2025 Oral. [CCF-B]
@@ -47,6 +47,9 @@ I am currently a Second Year Ph.D. Candidate at Zhejiang University, advised by 
 # 📖 Educations
 - *2023.09 - now*, Ph.D. Candidate, Electronic Information, College of Computer Science and Technology, Zhejiang University.
 - *2019.09 - 2023.06*, B.E., Computer Science, YangMing College, Ningbo University.
+
+<!-- # 🏢 Industry Experience
+- *2025.07 - now*, Oppo Intern, MLLM Security. -->
 
 # 💬 Service
 - *Reviewers:* IEEE TDSC, IEEE TIFS, AAAI, ACM MM
