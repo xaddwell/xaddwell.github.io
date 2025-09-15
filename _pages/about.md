@@ -29,7 +29,7 @@ I am currently a Third Year Ph.D. Candidate at Zhejiang University, advised by P
 - *2025.03*: &nbsp;🎉🎉 One paper was accepted by ICME 2025 Oral.
 - *2024.10*: &nbsp;🎉🎉 Two papers were accepted by AAAI 2025.
 
-# 📝 Publications 
+# 📝 Publications (* denotes co-author)
 
 - [Enhancing Adversarial Transferability with Adversarial Weight Tuning](https://ojs.aaai.org/index.php/AAAI/article/view/32203), **Jiahao Chen**<sup>*</sup>, Zhou Feng<sup>*</sup>, Rui Zeng, Yuwen Pu, Chunyi Zhou, Yi Jiang, Yuyou Gan, Jinbao Li, Shouling Ji, AAAI 2025. [CCF-A] [[Code](https://github.com/xaddwell/AWT)]
 - [CAMH: Advancing Model Hijacking Attack in Machine Learning](https://ojs.aaai.org/index.php/AAAI/article/view/33884), Xing He<sup>*</sup>, **Jiahao Chen**<sup>*</sup>, Yuwen Pu, Qingming Li, Chunyi Zhou, Yingcai Wu, Jinbao Li, Shouling Ji, AAAI 2025. [CCF-A] [[Code](https://github.com/healthandAI/CAMH)]
