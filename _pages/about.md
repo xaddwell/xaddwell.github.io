@@ -17,7 +17,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am currently a Third Year Ph.D. Candidate at Zhejiang University, advised by Prof. [Shouling Ji](https://scholar.google.com/citations?user=5HoF_9oAAAAJ). I received my B.S. degree with honors in Computer Science from Ningbo University (Yangming Class), advised by Prof. [Diqun Yan](http://www.yandiqun.com/). My research focuses on Trustworthy Generative AI in real-world applications, especially AI Security, AI Copyright Protection, and Privacy-Preserving AI. My long-term goal is to strengthen the source governance of AI technology and rectify illegal AI applications. Recently, I have been focusing more on the Security and Privacy risks of MLLMs and T2I models. 
+I am currently a Third Year Ph.D. Candidate at Zhejiang University, advised by Prof. [Shouling Ji](https://scholar.google.com/citations?user=5HoF_9oAAAAJ). I received my B.S. degree with honors in Computer Science from Ningbo University (Yangming Class), advised by Prof. [Diqun Yan](http://www.yandiqun.com/). My research focuses on Trustworthy Generative AI in real-world applications, especially AI Security, AI Copyright Protection, and Privacy-Preserving AI. My long-term goal is to strengthen the source governance of AI technology and rectify illegal AI applications. Recently, I have been focusing more on the Security and Privacy risks of MLLMs and T2I models. **Looking for undergraduate or graduate students with common research interests to collaborate with.**
 
 
 # 🔥 News
@@ -39,7 +39,7 @@ I am currently a Third Year Ph.D. Candidate at Zhejiang University, advised by P
 - [Enkidu: Universal Frequential Perturbation for Real-Time Audio Privacy Protection against Voice Deepfakes](https://arxiv.org/abs/2507.12932), Zhou Feng, **Jiahao Chen**, Chunyi Zhou, Yuwen Pu, Qingming Li, Tianyu Du, Shouling Ji, MM 2025. [CCF-A]
 - [TWIST: Text-encoder Weight-editing for Inserting Secret Trojans in Text-to-Image Models](https://aclanthology.org/2025.acl-long.541/), Xindi Li, Zhe Liu, Tong Zhang, **Jiahao Chen**, Qingming Li, Jinbao Li, Shouling Ji, ACL 2025 Main. [CCF-A]
 - [Universal defensive underpainting patch: Making your text invisible to optical character recognition](https://dl.acm.org/doi/abs/10.1145/3581783.3613768), JiaCheng Deng, Li Dong, **Jiahao Chen**, Diqun Yan, Rangding Wang, Dengpan Ye, Lingchen Zhao, Jinyu Tian, ACM MM 2023. [CCF-A] [[Code](https://github.com/QRICKDD/UDUP)]
-- [Poison in the Well: Feature Embedding Disruption in Backdoor Attacks](), Zhou Feng, **Jiahao Chen**, Chunyi Zhou, Yuwen Pu, Qingming Li, Shouling Ji, ICME 2025 Oral. [CCF-B]
+- [Poison in the Well: Feature Embedding Disruption in Backdoor Attacks](https://arxiv.org/abs/2505.19821), Zhou Feng<sup>*</sup>, **Jiahao Chen**<sup>*</sup>, Chunyi Zhou, Yuwen Pu, Qingming Li, Shouling Ji, ICME 2025 Oral. [CCF-B]
 - [Enhancing Adversarial Transferability via Self-Ensemble Feature Alignment](), Zhiming Zhao, **Jiahao Chen**, Qingming Li, Chunyi Zhou, Shouling Ji, ICMR 2025 Oral. [CCF-B]
 - [AdvUSL: Targeted Adversarial Attack against U-shaped Split Learning](), Yunxiao He, Chunqiang Hu, Yuwen Pu, **Jiahao Chen**, Xingwang Li, MASS 2024. [CCF-C]
 
