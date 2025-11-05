@@ -2,7 +2,7 @@
  * @Author: xaddwell 347801313@qq.com
  * @Date: 2025-05-21 14:30:07
  * @LastEditors: xaddwell 347801313@qq.com
- * @LastEditTime: 2025-11-05 16:12:06
+ * @LastEditTime: 2025-11-05 16:20:06
  * @FilePath: /xaddwell.github.io/_pages/about.md
  * @Description: 
  * 
@@ -36,7 +36,7 @@ I am currently a Third Year Ph.D. Candidate at Zhejiang University, advised by P
 - Trojan Attack: [ICME'25 Oral](https://arxiv.org/abs/2505.19821), [ACL'25 Main](https://aclanthology.org/2025.acl-long.541/)
 - Jailbreak: In Progress
 - Prompt Injection: In Progress
-- LLM-based Attack: [MMM'26]()
+- LLM-based Attack: [MMM'26](#)
 
 ### 🛡️ Risk Mitigation
 - Backdoor Defense: [TDSC'25](https://ieeexplore.ieee.org/document/11173939)
@@ -67,7 +67,7 @@ I am currently a Third Year Ph.D. Candidate at Zhejiang University, advised by P
 - [Universal defensive underpainting patch: Making your text invisible to optical character recognition](https://dl.acm.org/doi/abs/10.1145/3581783.3613768), JiaCheng Deng, Li Dong, **Jiahao Chen**, Diqun Yan, Rangding Wang, Dengpan Ye, Lingchen Zhao, Jinyu Tian, ACM MM 2023. [CCF-A] [Code](https://github.com/QRICKDD/UDUP)
 - [Poison in the Well: Feature Embedding Disruption in Backdoor Attacks](https://arxiv.org/abs/2505.19821), Zhou Feng<sup>*</sup>, **Jiahao Chen**<sup>*</sup>, Chunyi Zhou, Yuwen Pu, Qingming Li, Shouling Ji, ICME 2025 Oral. [CCF-B]
 - [Enhancing Adversarial Transferability via Self-Ensemble Feature Alignment](https://dl.acm.org/doi/10.1145/3731715.3733325), Zhiming Zhao, **Jiahao Chen**, Qingming Li, Chunyi Zhou, Shouling Ji, ICMR 2025 Oral. [CCF-B]
-- [Auditing M-LLMs for Privacy Risks: A Synthetic Benchmark and Evaluation Framework](), Junhao Li, **Jiahao Chen**, Zhou Feng, Chunyi Zhou, MMM 2026. [CCF-C]
+- [Auditing M-LLMs for Privacy Risks: A Synthetic Benchmark and Evaluation Framework](#), Junhao Li, **Jiahao Chen**, Zhou Feng, Chunyi Zhou, MMM 2026. [CCF-C]
 - [AdvUSL: Targeted Adversarial Attack against U-shaped Split Learning](https://www.computer.org/csdl/proceedings-article/mass/2024/639900a357/21kuuM5CT28), Yunxiao He, Chunqiang Hu, Yuwen Pu, **Jiahao Chen**, Xingwang Li, MASS 2024. [CCF-C]
 
 <!-- # 🎖 Honors and Awards
