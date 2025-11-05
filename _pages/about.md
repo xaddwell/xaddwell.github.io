@@ -2,7 +2,7 @@
  * @Author: xaddwell 347801313@qq.com
  * @Date: 2025-05-21 14:30:07
  * @LastEditors: xaddwell 347801313@qq.com
- * @LastEditTime: 2025-11-05 16:27:57
+ * @LastEditTime: 2025-11-05 16:51:27
  * @FilePath: /xaddwell.github.io/_pages/about.md
  * @Description: 
  * 
@@ -30,7 +30,9 @@ redirect_from:
 I am currently a Third Year Ph.D. Candidate at Zhejiang University, advised by Prof. [Shouling Ji](https://scholar.google.com/citations?user=5HoF_9oAAAAJ). I received my B.S. degree with honors in Computer Science from Ningbo University (Yangming Class), advised by Prof. [Diqun Yan](http://www.yandiqun.com/). My research focuses on Trustworthy Generative AI in real-world applications, especially AI Security, AI Copyright Protection, and Privacy-Preserving AI. My long-term goal is to strengthen the source governance of AI technology and rectify illegal AI applications. Recently, I have been focusing more on the Security and Privacy risks of MLLMs and T2I models. **Looking for undergraduate or graduate students with common research interests to collaborate with.**
 
 ## AI Risk Measurement and Mitigation 🛡️✖️🗡️ 
+
 ### 🗡️ Risk Measurement
+
 - Adversarial Transferability: [AAAI'25](https://ojs.aaai.org/index.php/AAAI/article/view/32203), [MM'25](https://dl.acm.org/doi/abs/10.1145/3746027.3755629), [ICMR'25 Oral](https://dl.acm.org/doi/10.1145/3731715.3733325), [MASS'24](https://www.computer.org/csdl/proceedings-article/mass/2024/639900a357/21kuuM5CT28), [MM'23](https://dl.acm.org/doi/abs/10.1145/3581783.3613768)
 - Model Hijacking: [AAAI'25](https://ojs.aaai.org/index.php/AAAI/article/view/33884)
 - Trojan Attack: [ICME'25 Oral](https://arxiv.org/abs/2505.19821), [ACL'25 Main](https://aclanthology.org/2025.acl-long.541/)
@@ -39,13 +41,12 @@ I am currently a Third Year Ph.D. Candidate at Zhejiang University, advised by P
 - LLM-based Attack: [MMM'26]( )
 
 ### 🛡️ Risk Mitigation
+
 - Backdoor Defense: [TDSC'25](https://ieeexplore.ieee.org/document/11173939)
 - Privacy Preserving: [TDSC'25](https://ieeexplore.ieee.org/abstract/document/10975146/), [MM'25](https://dl.acm.org/doi/abs/10.1145/3746027.3755629), [MM'23](https://dl.acm.org/doi/abs/10.1145/3581783.3613768)
 - Data(set)/Model Copyright: In progress
 
-
-
-<!-- # 🔥 News
+# 🔥 News
 - *2025.11*: &nbsp;🎉🎉 One paper was accepted by MMM 2026, congratulations to Junhao!
 - *2025.08*: &nbsp;🎉🎉 One paper was accepted by TDSC 2025, congratulations to Professor Pu!
 - *2025.07*: &nbsp;🎉🎉 One paper was accepted by MM 2025, congratulations to God Zhou!
@@ -53,7 +54,7 @@ I am currently a Third Year Ph.D. Candidate at Zhejiang University, advised by P
 - *2025.04*: &nbsp;🎉🎉 One paper was accepted by TDSC 2025, congratulations to Professor Pu!
 - *2025.04*: &nbsp;🎉🎉 One paper was accepted by ICMR 2025 Oral, congratulations to Zhiming!
 - *2025.03*: &nbsp;🎉🎉 One paper was accepted by ICME 2025 Oral, congratulations to God Zhou!
-- *2024.10*: &nbsp;🎉🎉 Two papers were accepted by AAAI 2025, congratulations to Xing! -->
+- *2024.10*: &nbsp;🎉🎉 Two papers were accepted by AAAI 2025, congratulations to Xing!
 
 # 📝 Publications 
 (* denotes equal contribution)
