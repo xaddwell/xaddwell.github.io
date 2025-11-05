@@ -2,7 +2,7 @@
  * @Author: xaddwell 347801313@qq.com
  * @Date: 2025-05-21 14:30:07
  * @LastEditors: xaddwell 347801313@qq.com
- * @LastEditTime: 2025-11-05 16:05:25
+ * @LastEditTime: 2025-11-05 16:10:07
  * @FilePath: /xaddwell.github.io/_pages/about.md
  * @Description: 
  * 
@@ -47,10 +47,10 @@ I am currently a Third Year Ph.D. Candidate at Zhejiang University, advised by P
 
 # 🔥 News
 - *2025.11*: &nbsp;🎉🎉 One paper was accepted by MMM 2026, congratulations to Junhao!
-- *2025.08*: &nbsp;🎉🎉 One paper was accepted by TDSC 2025.
+- *2025.08*: &nbsp;🎉🎉 One paper was accepted by TDSC 2025, congratulations to Professor Pu!
 - *2025.07*: &nbsp;🎉🎉 One paper was accepted by MM 2025, congratulations to God Zhou!
 - *2025.05*: &nbsp;🎉🎉 One paper was accepted by ACL 2025, congratulations to Xindi!
-- *2025.04*: &nbsp;🎉🎉 One paper was accepted by TDSC 2025.
+- *2025.04*: &nbsp;🎉🎉 One paper was accepted by TDSC 2025, congratulations to Professor Pu!
 - *2025.04*: &nbsp;🎉🎉 One paper was accepted by ICMR 2025 Oral, congratulations to Zhiming!
 - *2025.03*: &nbsp;🎉🎉 One paper was accepted by ICME 2025 Oral, congratulations to God Zhou!
 - *2024.10*: &nbsp;🎉🎉 Two papers were accepted by AAAI 2025, congratulations to Xing!
@@ -58,8 +58,8 @@ I am currently a Third Year Ph.D. Candidate at Zhejiang University, advised by P
 # 📝 Publications 
 (* denotes equal contribution)
 
-- [Enhancing Adversarial Transferability with Adversarial Weight Tuning](https://ojs.aaai.org/index.php/AAAI/article/view/32203), **Jiahao Chen**<sup>*</sup>, Zhou Feng<sup>*</sup>, Rui Zeng, Yuwen Pu, Chunyi Zhou, Yi Jiang, Yuyou Gan, Jinbao Li, Shouling Ji, AAAI 2025. [CCF-A] [[Code](https://github.com/xaddwell/AWT)]
-- [CAMH: Advancing Model Hijacking Attack in Machine Learning](https://ojs.aaai.org/index.php/AAAI/article/view/33884), Xing He<sup>*</sup>, **Jiahao Chen**<sup>*</sup>, Yuwen Pu, Qingming Li, Chunyi Zhou, Yingcai Wu, Jinbao Li, Shouling Ji, AAAI 2025. [CCF-A] [[Code](https://github.com/healthandAI/CAMH)]
+- [Enhancing Adversarial Transferability with Adversarial Weight Tuning](https://ojs.aaai.org/index.php/AAAI/article/view/32203), **Jiahao Chen**<sup>*</sup>, Zhou Feng<sup>*</sup>, Rui Zeng, Yuwen Pu, Chunyi Zhou, Yi Jiang, Yuyou Gan, Jinbao Li, Shouling Ji, AAAI 2025. [CCF-A] [Code](https://github.com/xaddwell/AWT)
+- [CAMH: Advancing Model Hijacking Attack in Machine Learning](https://ojs.aaai.org/index.php/AAAI/article/view/33884), Xing He<sup>*</sup>, **Jiahao Chen**<sup>*</sup>, Yuwen Pu, Qingming Li, Chunyi Zhou, Yingcai Wu, Jinbao Li, Shouling Ji, AAAI 2025. [CCF-A] [Code](https://github.com/healthandAI/CAMH)
 - [Facial data minimization: Shallow model as your privacy filter](https://ieeexplore.ieee.org/abstract/document/10975146/), Yuwen Pu<sup>*</sup>, **Jiahao Chen**<sup>*</sup>, Jiayu Pan, Diqun Yan, Xuhong Zhang, Shouling Ji, TDSC 2025. [CCF-A]
 - [Mellivora Capensis: A Backdoor-Free Training Framework on the Poisoned Dataset without Auxiliary Data](https://ieeexplore.ieee.org/document/11173939), Yuwen Pu<sup>*</sup>, **Jiahao Chen**<sup>*</sup>, Chunyi Zhou, Zhou Feng, Qingming Li, Chunqiang Hu and Shouling Ji, TDSC 2025. [CCF-A]
 - [Enkidu: Universal Frequential Perturbation for Real-Time Audio Privacy Protection against Voice Deepfakes](https://dl.acm.org/doi/abs/10.1145/3746027.3755629), Zhou Feng, **Jiahao Chen**, Chunyi Zhou, Yuwen Pu, Qingming Li, Tianyu Du, Shouling Ji, MM 2025. [CCF-A]
