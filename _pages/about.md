@@ -21,13 +21,14 @@ I am currently a Third Year Ph.D. Candidate at Zhejiang University, advised by P
 
 
 # 🔥 News
+- *2025.11*: &nbsp;🎉🎉 One paper was accepted by MMM 2026, congratulations to Junhao!
 - *2025.08*: &nbsp;🎉🎉 One paper was accepted by TDSC 2025.
-- *2025.07*: &nbsp;🎉🎉 One paper was accepted by MM 2025.
-- *2025.05*: &nbsp;🎉🎉 One paper was accepted by ACL 2025.
+- *2025.07*: &nbsp;🎉🎉 One paper was accepted by MM 2025, congratulations to God Zhou!
+- *2025.05*: &nbsp;🎉🎉 One paper was accepted by ACL 2025, congratulations to Xindi!
 - *2025.04*: &nbsp;🎉🎉 One paper was accepted by TDSC 2025.
-- *2025.04*: &nbsp;🎉🎉 One paper was accepted by ICMR 2025 Oral.
-- *2025.03*: &nbsp;🎉🎉 One paper was accepted by ICME 2025 Oral.
-- *2024.10*: &nbsp;🎉🎉 Two papers were accepted by AAAI 2025.
+- *2025.04*: &nbsp;🎉🎉 One paper was accepted by ICMR 2025 Oral, congratulations to Zhiming!
+- *2025.03*: &nbsp;🎉🎉 One paper was accepted by ICME 2025 Oral, congratulations to God Zhou!
+- *2024.10*: &nbsp;🎉🎉 Two papers were accepted by AAAI 2025, congratulations to Xing!
 
 # 📝 Publications 
 (* denotes equal contribution)
@@ -41,6 +42,7 @@ I am currently a Third Year Ph.D. Candidate at Zhejiang University, advised by P
 - [Universal defensive underpainting patch: Making your text invisible to optical character recognition](https://dl.acm.org/doi/abs/10.1145/3581783.3613768), JiaCheng Deng, Li Dong, **Jiahao Chen**, Diqun Yan, Rangding Wang, Dengpan Ye, Lingchen Zhao, Jinyu Tian, ACM MM 2023. [CCF-A] [[Code](https://github.com/QRICKDD/UDUP)]
 - [Poison in the Well: Feature Embedding Disruption in Backdoor Attacks](https://arxiv.org/abs/2505.19821), Zhou Feng<sup>*</sup>, **Jiahao Chen**<sup>*</sup>, Chunyi Zhou, Yuwen Pu, Qingming Li, Shouling Ji, ICME 2025 Oral. [CCF-B]
 - [Enhancing Adversarial Transferability via Self-Ensemble Feature Alignment](), Zhiming Zhao, **Jiahao Chen**, Qingming Li, Chunyi Zhou, Shouling Ji, ICMR 2025 Oral. [CCF-B]
+- [Auditing M-LLMs for Privacy Risks: A Synthetic Benchmark and Evaluation Framework](), Junhao Li, **Jiahao Chen**, Zhou Feng, Chunyi Zhou, MMM 2026. [CCF-C]
 - [AdvUSL: Targeted Adversarial Attack against U-shaped Split Learning](), Yunxiao He, Chunqiang Hu, Yuwen Pu, **Jiahao Chen**, Xingwang Li, MASS 2024. [CCF-C]
 
 <!-- # 🎖 Honors and Awards
