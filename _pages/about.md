@@ -2,7 +2,7 @@
  * @Author: xaddwell 347801313@qq.com
  * @Date: 2025-05-21 14:30:07
  * @LastEditors: xaddwell 347801313@qq.com
- * @LastEditTime: 2025-11-05 16:51:27
+ * @LastEditTime: 2025-11-05 17:05:25
  * @FilePath: /xaddwell.github.io/_pages/about.md
  * @Description: 
  * 
@@ -27,7 +27,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am currently a Third Year Ph.D. Candidate at Zhejiang University, advised by Prof. [Shouling Ji](https://scholar.google.com/citations?user=5HoF_9oAAAAJ). I received my B.S. degree with honors in Computer Science from Ningbo University (Yangming Class), advised by Prof. [Diqun Yan](http://www.yandiqun.com/). My research focuses on Trustworthy Generative AI in real-world applications, especially AI Security, AI Copyright Protection, and Privacy-Preserving AI. My long-term goal is to strengthen the source governance of AI technology and rectify illegal AI applications. Recently, I have been focusing more on the Security and Privacy risks of MLLMs and T2I models. **Looking for undergraduate or graduate students with common research interests to collaborate with.**
+<!-- I am currently a Third Year Ph.D. Candidate at Zhejiang University, advised by Prof. [Shouling Ji](https://scholar.google.com/citations?user=5HoF_9oAAAAJ). I received my B.S. degree with honors in Computer Science from Ningbo University (Yangming Class), advised by Prof. [Diqun Yan](http://www.yandiqun.com/). My research focuses on Trustworthy Generative AI in real-world applications, especially AI Security, AI Copyright Protection, and Privacy-Preserving AI. My long-term goal is to strengthen the source governance of AI technology and rectify illegal AI applications. Recently, I have been focusing more on the Security and Privacy risks of MLLMs and T2I models. **Looking for undergraduate or graduate students with common research interests to collaborate with.**
 
 ## AI Risk Measurement and Mitigation 🛡️✖️🗡️ 
 
@@ -69,7 +69,7 @@ I am currently a Third Year Ph.D. Candidate at Zhejiang University, advised by P
 - [Poison in the Well: Feature Embedding Disruption in Backdoor Attacks](https://arxiv.org/abs/2505.19821), Zhou Feng<sup>*</sup>, **Jiahao Chen**<sup>*</sup>, Chunyi Zhou, Yuwen Pu, Qingming Li, Shouling Ji, ICME 2025 Oral. [CCF-B]
 - [Enhancing Adversarial Transferability via Self-Ensemble Feature Alignment](https://dl.acm.org/doi/10.1145/3731715.3733325), Zhiming Zhao, **Jiahao Chen**, Qingming Li, Chunyi Zhou, Shouling Ji, ICMR 2025 Oral. [CCF-B]
 - [Auditing M-LLMs for Privacy Risks: A Synthetic Benchmark and Evaluation Framework]( ), Junhao Li, **Jiahao Chen**, Zhou Feng, Chunyi Zhou, MMM 2026. [CCF-C]
-- [AdvUSL: Targeted Adversarial Attack against U-shaped Split Learning](https://www.computer.org/csdl/proceedings-article/mass/2024/639900a357/21kuuM5CT28), Yunxiao He, Chunqiang Hu, Yuwen Pu, **Jiahao Chen**, Xingwang Li, MASS 2024. [CCF-C]
+- [AdvUSL: Targeted Adversarial Attack against U-shaped Split Learning](https://www.computer.org/csdl/proceedings-article/mass/2024/639900a357/21kuuM5CT28), Yunxiao He, Chunqiang Hu, Yuwen Pu, **Jiahao Chen**, Xingwang Li, MASS 2024. [CCF-C] -->
 
 <!-- # 🎖 Honors and Awards
 - *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
