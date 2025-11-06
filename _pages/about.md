@@ -2,7 +2,7 @@
  * @Author: xaddwell 347801313@qq.com
  * @Date: 2025-05-21 14:30:07
  * @LastEditors: xaddwell 347801313@qq.com
- * @LastEditTime: 2025-11-05 18:54:58
+ * @LastEditTime: 2025-11-06 11:26:36
  * @FilePath: /xaddwell.github.io/_pages/about.md
  * @Description: 
  * 
@@ -47,6 +47,7 @@ I am currently a Third Year Ph.D. Candidate at Zhejiang University, advised by P
 - Data(set)/Model Copyright: In progress
 
 # 🔥 News
+- *2025.11*: &nbsp;🎉🎉 Our Trustworthy FL library ([TFLlib](https://github.com/xaddwell/TFLlib)) is opensourced !
 - *2025.11*: &nbsp;🎉🎉 One paper was accepted by MMM 2026, congratulations to Junhao!
 - *2025.08*: &nbsp;🎉🎉 One paper was accepted by TDSC 2025, congratulations to Professor Pu!
 - *2025.07*: &nbsp;🎉🎉 One paper was accepted by MM 2025, congratulations to God Zhou!
