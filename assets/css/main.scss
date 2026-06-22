@@ -224,6 +224,15 @@ h1:before, .anchor:before {
     overflow-wrap: anywhere;
 }
 
+#main > .page:only-child {
+    @include breakpoint($large) {
+        width: 100%;
+        float: none;
+        margin: 0;
+        padding: 0;
+    }
+}
+
 @include breakpoint(max-width $medium) {
     .home-hero {
         gap: 1.5rem;
