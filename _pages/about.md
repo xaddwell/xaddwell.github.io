@@ -19,10 +19,6 @@ redirect_from:
       {{ paragraph | replace: "__WECHAT_IMAGE__", profile.site.wechat_image | markdownify }}
       {% endfor %}
     </div>
-    <div class="home-hero__actions">
-      <a class="btn btn--primary" href="mailto:{{ profile.site.email }}">Email</a>
-      <a class="btn" href="{{ profile.site.googlescholar }}">Google Scholar</a>
-    </div>
   </div>
   <aside class="home-hero__aside">
     <div class="home-hero__card">

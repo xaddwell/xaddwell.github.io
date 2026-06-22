@@ -133,7 +133,10 @@ h1:before, .anchor:before {
 }
 
 .home-hero h1 {
+    margin-top: 0;
     margin-bottom: 1rem;
+    padding-bottom: 0;
+    border-bottom: 0;
     font-size: clamp(2.2rem, 4vw, 3.4rem);
     line-height: 1.05;
 }
@@ -144,6 +147,10 @@ h1:before, .anchor:before {
     font-size: 1.05rem;
     line-height: 1.8;
     overflow-wrap: anywhere;
+}
+
+.home-hero__intro > .home-hero__bio > p:first-child {
+    margin-top: .5rem;
 }
 
 .home-hero__actions {
