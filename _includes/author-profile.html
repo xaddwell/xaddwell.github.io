@@ -1,16 +1,18 @@
 {% if page.author and site.data.authors[page.author] %}
-  {% assign author = site.data.authors[page.author] %}{% else %}{% assign author = site.author %}
+  {% assign author = site.data.authors[page.author] %}
+{% else %}
+  {% assign author = site.author %}
 {% endif %}
 
 <div itemscope itemtype="http://schema.org/Person" class="profile_box">
 
   <div class="author__avatar">
-    <img src="{{ author.avatar }}" class="author__avatar" alt="{{ author.name }}">
+    <img src="{% if site.data.profile and site.data.profile.site.avatar %}{{ site.data.profile.site.avatar }}{% else %}{{ author.avatar }}{% endif %}" class="author__avatar" alt="{% if site.data.profile and site.data.profile.profile.name %}{{ site.data.profile.profile.name }}{% else %}{{ author.name }}{% endif %}">
   </div>
 
   <div class="author__content">
-    <h3 class="author__name">{{ author.name }}</h3>
-    {% if author.bio %}<p class="author__bio">{{ author.bio }}</p>{% endif %}
+    <h3 class="author__name">{% if site.data.profile and site.data.profile.profile.name %}{{ site.data.profile.profile.name }}{% else %}{{ author.name }}{% endif %}</h3>
+    {% if site.data.profile and site.data.profile.site.bio %}<p class="author__bio">{{ site.data.profile.site.bio }}</p>{% elsif author.bio %}<p class="author__bio">{{ author.bio }}</p>{% endif %}
   </div>
 
   <div class="author__urls-wrapper">
@@ -19,7 +21,9 @@
       {% if site.description %}
         <li><div style="white-space: normal; margin-bottom: 1em;">{{ site.description }}</div></li>
       {% endif %}
-      {% if author.location %}
+      {% if site.data.profile and site.data.profile.site.location %}
+        <li><i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> {{ site.data.profile.site.location }}</li>
+      {% elsif author.location %}
         <li><i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> {{ author.location }}</li>
       {% endif %}
       {% if author.employer %}
@@ -28,7 +32,9 @@
       {% if author.uri %}
         <li><a href="{{ author.uri }}"><i class="fas fa-fw fa-link" aria-hidden="true"></i> Website</a></li>
       {% endif %}
-      {% if author.email %}
+      {% if site.data.profile and site.data.profile.site.email %}
+        <li><a href="mailto:{{ site.data.profile.site.email }}"><i class="fas fa-fw fa-envelope" aria-hidden="true"></i> Email</a></li>
+      {% elsif author.email %}
         <li><a href="mailto:{{ author.email }}"><i class="fas fa-fw fa-envelope" aria-hidden="true"></i> Email</a></li>
       {% endif %}
       {% if author.keybase %}
@@ -64,7 +70,9 @@
       {% if author.bitbucket %}
         <li><a href="https://bitbucket.org/{{ author.bitbucket }}"><i class="fab fa-fw fa-bitbucket" aria-hidden="true"></i> Bitbucket</a></li>
       {% endif %}
-      {% if author.github %}
+      {% if site.data.profile and site.data.profile.site.github %}
+        <li><a href="https://github.com/{{ site.data.profile.site.github }}"><i class="fab fa-fw fa-github" aria-hidden="true"></i> Github</a></li>
+      {% elsif author.github %}
         <li><a href="https://github.com/{{ author.github }}"><i class="fab fa-fw fa-github" aria-hidden="true"></i> Github</a></li>
       {% endif %}
       {% if author.stackoverflow %}
@@ -103,7 +111,9 @@
       {% if author.vine %}
         <li><a href="https://vine.co/u/{{ author.vine }}"><i class="fab fa-fw fa-vine" aria-hidden="true"></i> Vine</a></li>
       {% endif %}
-      {% if author.googlescholar %}
+      {% if site.data.profile and site.data.profile.site.googlescholar %}
+        <li><a href="{{ site.data.profile.site.googlescholar }}"><i class="fas fa-fw fa-graduation-cap"></i> Google Scholar</a></li>
+      {% elsif author.googlescholar %}
         <li><a href="{{ author.googlescholar }}"><i class="fas fa-fw fa-graduation-cap"></i> Google Scholar</a></li>
       {% endif %}
       {% if author.pubmed %}
@@ -123,7 +133,9 @@
       {% if author.uri %}
         <a href="{{ author.uri }}"><i class="fas fa-fw fa-link" aria-hidden="true"></i></a>
       {% endif %}
-      {% if author.email %}
+      {% if site.data.profile and site.data.profile.site.email %}
+        <a href="mailto:{{ site.data.profile.site.email }}"><i class="fas fa-fw fa-envelope" aria-hidden="true"></i></a>
+      {% elsif author.email %}
         <a href="mailto:{{ author.email }}"><i class="fas fa-fw fa-envelope" aria-hidden="true"></i></a>
       {% endif %}
       {% if author.keybase %}
@@ -159,7 +171,9 @@
       {% if author.bitbucket %}
         <a href="https://bitbucket.org/{{ author.bitbucket }}"><i class="fab fa-fw fa-bitbucket" aria-hidden="true"></i></a>
       {% endif %}
-      {% if author.github %}
+      {% if site.data.profile and site.data.profile.site.github %}
+        <a href="https://github.com/{{ site.data.profile.site.github }}"><i class="fab fa-fw fa-github" aria-hidden="true"></i></a>
+      {% elsif author.github %}
         <a href="https://github.com/{{ author.github }}"><i class="fab fa-fw fa-github" aria-hidden="true"></i></a>
       {% endif %}
       {% if author.stackoverflow %}
@@ -198,7 +212,9 @@
       {% if author.vine %}
         <a href="https://vine.co/u/{{ author.vine }}"><i class="fab fa-fw fa-vine" aria-hidden="true"></i></a>
       {% endif %}
-      {% if author.googlescholar %}
+      {% if site.data.profile and site.data.profile.site.googlescholar %}
+        <a href="{{ site.data.profile.site.googlescholar }}"><i class="fas fa-fw fa-graduation-cap"></i></a>
+      {% elsif author.googlescholar %}
         <a href="{{ author.googlescholar }}"><i class="fas fa-fw fa-graduation-cap"></i></a>
       {% endif %}
       {% if author.pubmed %}

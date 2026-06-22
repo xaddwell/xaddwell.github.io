@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Jiahao Chen"
-description              : "Ph.D. Candidate at NESA Lab, ZJU"
+description              : "Ph.D. Candidate at NESA Lab, Zhejiang University"
 repository               : "xaddwell/xaddwell.github.io"
 google_scholar_stats_use_cdn : true
 
@@ -23,7 +23,7 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 author:
   name             : "Jiahao Chen"
   avatar           : "images/android-chrome-192x192.png"
-  bio              : "Zhejiang University"
+  bio              : "Third Year Ph.D. Candidate"
   location         : "Hangzhou, China"
   employer         :
   pubmed           : 
