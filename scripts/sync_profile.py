@@ -41,15 +41,15 @@ def render_research(profile: dict) -> str:
 
 def render_readme(profile: dict) -> str:
     replacements = {
-        "{{WECHAT_IMAGE}}": profile["site"]["readme_wechat_image"],
-        "{{REPORT_PDF}}": profile["site"]["readme_report_pdf"],
+        "__WECHAT_IMAGE__": profile["site"]["readme_wechat_image"],
+        "__REPORT_PDF__": profile["site"]["readme_report_pdf"],
     }
     bio = [
-        paragraph.replace("{{WECHAT_IMAGE}}", replacements["{{WECHAT_IMAGE}}"])
+        paragraph.replace("__WECHAT_IMAGE__", replacements["__WECHAT_IMAGE__"])
         for paragraph in profile["profile"]["bio"]
     ]
     news = [
-        item.replace("{{REPORT_PDF}}", replacements["{{REPORT_PDF}}"])
+        item.replace("__REPORT_PDF__", replacements["__REPORT_PDF__"])
         for item in profile["news"]
     ]
     parts = [f"# {profile['profile']['name']}", ""]

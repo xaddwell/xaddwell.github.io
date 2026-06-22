@@ -16,7 +16,7 @@ redirect_from:
     <h1>{{ profile.profile.name }}</h1>
     <div class="home-hero__bio">
       {% for paragraph in profile.profile.bio %}
-      {{ paragraph | replace: "{{WECHAT_IMAGE}}", profile.site.wechat_image | markdownify }}
+      {{ paragraph | replace: "__WECHAT_IMAGE__", profile.site.wechat_image | markdownify }}
       {% endfor %}
     </div>
     <div class="home-hero__actions">
@@ -68,7 +68,7 @@ redirect_from:
   <h2>News</h2>
   <ul class="timeline-list">
     {% for item in profile.news %}
-    <li>{{ item | replace: "{{REPORT_PDF}}", profile.site.report_pdf | markdownify | remove: "<p>" | remove: "</p>" }}</li>
+    <li>{{ item | replace: "__REPORT_PDF__", profile.site.report_pdf | markdownify | remove: "<p>" | remove: "</p>" }}</li>
     {% endfor %}
   </ul>
 </section>
