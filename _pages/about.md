@@ -34,7 +34,7 @@ redirect_from:
       </ul>
     </div>
     <details class="contact-toggle">
-      <summary class="contact-toggle__summary">Show WeChat QR</summary>
+      <summary class="contact-toggle__summary">Contact on WeChat</summary>
       <div class="contact-toggle__panel">
         <h2>WeChat</h2>
         <img src="{{ profile.site.wechat_image }}" alt="WeChat QR code for {{ profile.profile.name }}">
