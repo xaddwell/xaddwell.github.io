@@ -85,15 +85,38 @@ redirect_from:
   </ol>
 </section>
 
-{% assign compact_sections = "Honors and Awards:honors|Educations:education|Service:service|Internships:internships" | split: "|" %}
-{% for section in compact_sections %}
-  {% assign parts = section | split: ":" %}
-  <section class="profile-section profile-section--compact">
-    <h2>{{ parts[0] }}</h2>
-    <ul class="simple-list">
-      {% for item in profile[parts[1]] %}
-      <li>{{ item | markdownify | remove: "<p>" | remove: "</p>" }}</li>
-      {% endfor %}
-    </ul>
-  </section>
-{% endfor %}
+<section class="profile-section profile-section--compact">
+  <h2>Honors and Awards</h2>
+  <ul class="simple-list">
+    {% for item in profile.honors %}
+    <li>{{ item | markdownify | remove: "<p>" | remove: "</p>" }}</li>
+    {% endfor %}
+  </ul>
+</section>
+
+<section class="profile-section profile-section--compact">
+  <h2>Educations</h2>
+  <ul class="simple-list">
+    {% for item in profile.education %}
+    <li>{{ item | markdownify | remove: "<p>" | remove: "</p>" }}</li>
+    {% endfor %}
+  </ul>
+</section>
+
+<section class="profile-section profile-section--compact">
+  <h2>Service</h2>
+  <ul class="simple-list">
+    {% for item in profile.service %}
+    <li>{{ item | markdownify | remove: "<p>" | remove: "</p>" }}</li>
+    {% endfor %}
+  </ul>
+</section>
+
+<section class="profile-section profile-section--compact">
+  <h2>Internships</h2>
+  <ul class="simple-list">
+    {% for item in profile.internships %}
+    <li>{{ item | markdownify | remove: "<p>" | remove: "</p>" }}</li>
+    {% endfor %}
+  </ul>
+</section>
