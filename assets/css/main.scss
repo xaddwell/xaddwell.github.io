@@ -112,10 +112,14 @@ h1:before, .anchor:before {
     display: grid;
     gap: 2rem;
     margin-bottom: 3rem;
+    align-items: start;
+
+    @include breakpoint($medium) {
+        grid-template-columns: minmax(0, 1.35fr) minmax(240px, .85fr);
+    }
 
     @include breakpoint($large) {
         grid-template-columns: minmax(0, 1.8fr) minmax(280px, 0.9fr);
-        align-items: start;
     }
 }
 
@@ -139,6 +143,7 @@ h1:before, .anchor:before {
     color: #2e3440;
     font-size: 1.05rem;
     line-height: 1.8;
+    overflow-wrap: anywhere;
 }
 
 .home-hero__actions {
@@ -148,9 +153,14 @@ h1:before, .anchor:before {
     margin-top: 1.5rem;
 }
 
+.home-hero__actions .btn {
+    min-width: 0;
+}
+
 .home-hero__aside {
     display: grid;
     gap: 1rem;
+    align-content: start;
 }
 
 .home-hero__card {
@@ -193,10 +203,12 @@ h1:before, .anchor:before {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    gap: 1rem;
     padding: 1rem 1.25rem;
     font-weight: 600;
     cursor: pointer;
     list-style: none;
+    min-width: 0;
 }
 
 .contact-toggle__summary::-webkit-details-marker {
@@ -235,6 +247,7 @@ h1:before, .anchor:before {
     margin-top: 2.5rem;
     padding-top: 2rem;
     border-top: 1px solid #e7ecf5;
+    min-width: 0;
 }
 
 .profile-section h2 {
@@ -266,19 +279,74 @@ h1:before, .anchor:before {
 .timeline-list li,
 .simple-list li {
     margin-bottom: .6rem;
+    overflow-wrap: anywhere;
 }
 
 .publication-list {
     margin: 0;
     padding-left: 1.4rem;
+    min-width: 0;
 }
 
 .publication-list li {
     margin-bottom: 1rem;
     line-height: 1.75;
+    overflow-wrap: anywhere;
 }
 
 .section-heading p {
     margin-top: -.25rem;
     color: #5b6578;
+    overflow-wrap: anywhere;
+}
+
+.page__content {
+    min-width: 0;
+}
+
+.page__content a,
+.page__content strong,
+.page__content li,
+.page__content p {
+    overflow-wrap: anywhere;
+}
+
+@include breakpoint(max-width $medium) {
+    .home-hero {
+        gap: 1.5rem;
+        margin-bottom: 2rem;
+    }
+
+    .home-hero h1 {
+        font-size: 2.2rem;
+    }
+
+    .home-hero__bio p {
+        font-size: 1rem;
+        line-height: 1.7;
+    }
+
+    .home-hero__card,
+    .contact-toggle {
+        width: 100%;
+    }
+
+    .profile-section {
+        margin-top: 2rem;
+        padding-top: 1.5rem;
+    }
+}
+
+@include breakpoint(max-width 900px) {
+    .page {
+        width: 100%;
+        float: none;
+        margin: 0;
+    }
+}
+
+@include breakpoint($x-large) {
+    .page__content {
+        max-width: 100%;
+    }
 }
