@@ -113,14 +113,6 @@ h1:before, .anchor:before {
     gap: 2rem;
     margin-bottom: 3rem;
     align-items: start;
-
-    @include breakpoint($medium) {
-        grid-template-columns: minmax(0, 1.35fr) minmax(240px, .85fr);
-    }
-
-    @include breakpoint($large) {
-        grid-template-columns: minmax(0, 1.8fr) minmax(280px, 0.9fr);
-    }
 }
 
 .home-hero__eyebrow {
@@ -162,92 +154,6 @@ h1:before, .anchor:before {
 
 .home-hero__actions .btn {
     min-width: 0;
-}
-
-.home-hero__aside {
-    display: grid;
-    gap: 1rem;
-    align-content: start;
-}
-
-.home-hero__card {
-    padding: 1.25rem;
-    border: 1px solid #d8e0ef;
-    border-radius: 8px;
-    background: #f7f9fc;
-}
-
-.home-hero__card h2 {
-    margin: 0 0 .75rem;
-    font-size: 1rem;
-}
-
-.home-hero__card ul {
-    margin: 0;
-    padding-left: 1.1rem;
-}
-
-.home-hero__card li + li {
-    margin-top: .4rem;
-}
-
-.home-hero__card--qr img {
-    display: block;
-    width: min(220px, 100%);
-    height: auto;
-    margin: 0 auto;
-    border-radius: 6px;
-}
-
-.contact-toggle {
-    border: 1px solid #d8e0ef;
-    border-radius: 8px;
-    background: #f7f9fc;
-    overflow: hidden;
-}
-
-.contact-toggle__summary {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 1rem;
-    padding: 1rem 1.25rem;
-    font-weight: 600;
-    cursor: pointer;
-    list-style: none;
-    min-width: 0;
-}
-
-.contact-toggle__summary::-webkit-details-marker {
-    display: none;
-}
-
-.contact-toggle__summary::after {
-    content: "+";
-    font-size: 1.2rem;
-    line-height: 1;
-}
-
-.contact-toggle[open] .contact-toggle__summary::after {
-    content: "-";
-}
-
-.contact-toggle__panel {
-    padding: 0 1.25rem 1.25rem;
-    border-top: 1px solid #d8e0ef;
-}
-
-.contact-toggle__panel h2 {
-    margin: 1rem 0 .75rem;
-    font-size: 1rem;
-}
-
-.contact-toggle__panel img {
-    display: block;
-    width: min(220px, 100%);
-    height: auto;
-    margin: 0 auto;
-    border-radius: 6px;
 }
 
 .profile-section {
@@ -331,11 +237,6 @@ h1:before, .anchor:before {
     .home-hero__bio p {
         font-size: 1rem;
         line-height: 1.7;
-    }
-
-    .home-hero__card,
-    .contact-toggle {
-        width: 100%;
     }
 
     .profile-section {

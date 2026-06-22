@@ -20,23 +20,6 @@ redirect_from:
       {% endfor %}
     </div>
   </div>
-  <aside class="home-hero__aside">
-    <div class="home-hero__card">
-      <h2>Research Focus</h2>
-      <ul>
-        {% for area in profile.research_areas %}
-        <li>{{ area.title }}</li>
-        {% endfor %}
-      </ul>
-    </div>
-    <details class="contact-toggle">
-      <summary class="contact-toggle__summary">Contact on WeChat</summary>
-      <div class="contact-toggle__panel">
-        <h2>WeChat</h2>
-        <img src="{{ profile.site.wechat_image }}" alt="WeChat QR code for {{ profile.profile.name }}">
-      </div>
-    </details>
-  </aside>
 </div>
 
 <section class="profile-section">
