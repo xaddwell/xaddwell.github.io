@@ -12,7 +12,6 @@ redirect_from:
 
 <div class="home-hero">
   <div class="home-hero__intro">
-    <p class="home-hero__eyebrow">{{ profile.profile.headline }}</p>
     <h1>{{ profile.profile.name }}</h1>
     <div class="home-hero__bio">
       {% for paragraph in profile.profile.bio %}
