@@ -33,10 +33,13 @@ redirect_from:
         {% endfor %}
       </ul>
     </div>
-    <div class="home-hero__card home-hero__card--qr">
-      <h2>WeChat</h2>
-      <img src="{{ profile.site.wechat_image }}" alt="WeChat QR code for {{ profile.profile.name }}">
-    </div>
+    <details class="contact-toggle">
+      <summary class="contact-toggle__summary">Show WeChat QR</summary>
+      <div class="contact-toggle__panel">
+        <h2>WeChat</h2>
+        <img src="{{ profile.site.wechat_image }}" alt="WeChat QR code for {{ profile.profile.name }}">
+      </div>
+    </details>
   </aside>
 </div>
 
