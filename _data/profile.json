@@ -47,7 +47,9 @@
             { "text": "KDD'26", "url": "https://arxiv.org/abs/2512.10402" },
             { "text": "TIFS'26", "url": "https://ieeexplore.ieee.org/document/11296926" },
             { "text": "ICML'26", "url": "https://arxiv.org/abs/2605.14587" },
-            { "text": "TDSC'26 Submission", "url": "" }
+            { "text": "TDSC'26 Submission", "url": "" },
+            { "text": "AAAI'27 Submission (Data Poisoning)", "url": "" },
+            { "text": "AAAI'27 Submission (PRISM)", "url": "" }
           ]
         },
         {
@@ -71,6 +73,7 @@
           "label": "Agent Security",
           "links": [
             { "text": "ICML'26", "url": "" },
+            { "text": "AAAI'27 Submission", "url": "" },
             { "text": "Survey", "url": "https://github.com/xaddwell/awesome-agentic-memory-safety" },
             { "text": "Report", "url": "https://github.com/xaddwell/awesome-openclaw-security" }
           ]
@@ -104,13 +107,15 @@
           "links": [
             { "text": "ICME'26", "url": "" },
             { "text": "KDD'26", "url": "https://arxiv.org/pdf/2507.07056" },
-            { "text": "ICML'26", "url": "https://openreview.net/forum?id=1BLni5Uxsd" }
+            { "text": "ICML'26", "url": "https://openreview.net/forum?id=1BLni5Uxsd" },
+            { "text": "AAAI'27 Submission", "url": "" }
           ]
         },
         {
           "label": "LLM & Agent Safety",
           "links": [
             { "text": "EMNLP'26 Findings", "url": "" },
+            { "text": "AAAI'27 Submission", "url": "" },
             { "text": "MM'26 Submission", "url": "" }
           ]
         }
