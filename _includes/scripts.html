@@ -2,3 +2,26 @@
 
 {% include analytics.html %}
 {% include fetch_google_scholar_stats.html %}
+
+<button id="theme-toggle" aria-label="Toggle dark mode"><i class="fas fa-moon"></i></button>
+<script>
+(function () {
+  var root = document.documentElement;
+  var btn = document.getElementById('theme-toggle');
+  function render() {
+    if (root.classList.contains('theme-dark')) {
+      btn.innerHTML = '<i class="fas fa-sun"></i>';
+    } else {
+      btn.innerHTML = '<i class="fas fa-moon"></i>';
+    }
+  }
+  btn.addEventListener('click', function () {
+    root.classList.toggle('theme-dark');
+    try {
+      localStorage.setItem('theme', root.classList.contains('theme-dark') ? 'dark' : 'light');
+    } catch (e) {}
+    render();
+  });
+  render();
+})();
+</script>
