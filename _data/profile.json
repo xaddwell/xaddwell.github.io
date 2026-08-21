@@ -49,14 +49,17 @@
             { "text": "ICML'26", "url": "https://arxiv.org/abs/2605.14587" },
             { "text": "TDSC'26 Submission", "url": "" },
             { "text": "AAAI'27 Submission (Data Poisoning)", "url": "" },
-            { "text": "AAAI'27 Submission (PRISM)", "url": "" }
+            { "text": "AAAI'27 Submission (PRISM)", "url": "" },
+            { "text": "KDD'27 Submission", "url": "" },
+            { "text": "NeurIPS'26 Submission", "url": "" }
           ]
         },
         {
           "label": "Model Hijacking",
           "links": [
             { "text": "AAAI'25", "url": "https://ojs.aaai.org/index.php/AAAI/article/view/33884" },
-            { "text": "CCS'26", "url": "https://arxiv.org/abs/2606.09151" }
+            { "text": "CCS'26", "url": "https://arxiv.org/abs/2606.09151" },
+            { "text": "KDD'27 Submission", "url": "" }
           ]
         },
         {
