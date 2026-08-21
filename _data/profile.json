@@ -108,7 +108,7 @@
         {
           "label": "Data & Model Copyright",
           "links": [
-            { "text": "ICME'26", "url": "" },
+            { "text": "ICME'26", "url": "https://nesa.zju.edu.cn/download/icme2026__camera.pdf" },
             { "text": "KDD'26", "url": "https://arxiv.org/pdf/2507.07056" },
             { "text": "ICML'26", "url": "https://openreview.net/forum?id=1BLni5Uxsd" },
             { "text": "AAAI'27 Submission", "url": "" }
@@ -160,7 +160,7 @@
     " [SOPE: Situation-Aware and Statistically Indistinguishable Privacy Exfiltration for MCP-enabled Agents](https://openreview.net/forum?id=Ra0pui9HXF), Ruixiao Lin, Qingming Li, **Jiahao Chen**, Chunyi Zhou, Shouling Ji, ICML 2026. [CCF-A]",
     " [Angel or Demon: Investigating the Plasticity Interventions' Impact on Backdoor Threats in Deep Reinforcement Learning](https://arxiv.org/abs/2605.14587), Oubo Ma, Ruixiao Lin, Yang Dai, **Jiahao Chen**, Chunyi Zhou, Linkang Du, Shouling Ji, ICML 2026. [CCF-A]",
     " [MADA-Attack: Transferable Multi-modal Attention Distraction Adversarial Attack against Vision Language Models](https://openreview.net/forum?id=ql0gSFEKAC), Zhihan Qin $^\\star$, **Jiahao Chen**$^\\star$, Chunyi Zhou, Yuwen Pu, Chunqiang Hu, Xiaolei Liu, Shouling Ji, ICML 2026. [CCF-A]",
-    " [LoRA-Hash: Unveiling Model Identity from Heavy-Tailed Weight Distributions](), Xing He, **Jiahao Chen**, Junhao Li, Feng Zhou, Shouling Ji, ICME 2026. [CCF-B]",
+    " [LoRA-Hash: Unveiling Model Identity from Heavy-Tailed Weight Distributions](https://nesa.zju.edu.cn/download/icme2026__camera.pdf), Xing He, **Jiahao Chen**, Junhao Li, Feng Zhou, Shouling Ji, ICME 2026. [CCF-B]",
     " [DUAP: Disentanglement-based Universal Adversarial Perturbations for Robust Multilingual Speech Privacy Protection](https://ieeexplore.ieee.org/document/11422989), Qianli Ma, Wenjie Zhang, **Jiahao Chen**, et al., TIFS 2026. [CCF-A]",
     " [STAR: Strategy-driven Automatic Jailbreak Red-teaming For Large Language Model](https://openreview.net/forum?id=c2BygWVqag), Jianing Liu, Qingming Li, **Jiahao Chen**, Rui Zeng, Binbin Zhao, Shouling Ji, ICLR 2026. [CCF-A] [Code](https://github.com/Outlier01/STAR/tree/main)",
     " [Contextual and Seasonal LSTMs for Time Series Anomaly Detection](https://openreview.net/forum?id=2VtveTkmzW), Lingpei Zhang, Qingming Li, Yong Yang, **Jiahao Chen**, Rui Zeng, Chenyang Lyu, Shouling Ji, ICLR 2026. [CCF-A]",
