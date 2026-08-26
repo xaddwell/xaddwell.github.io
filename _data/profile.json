@@ -101,7 +101,7 @@
             { "text": "MM'25", "url": "https://dl.acm.org/doi/abs/10.1145/3746027.3755629" },
             { "text": "TIFS'26", "url": "https://ieeexplore.ieee.org/document/11422989" },
             { "text": "MM'23", "url": "https://dl.acm.org/doi/abs/10.1145/3581783.3613768" },
-            { "text": "ECCV'26", "url": "" },
+            { "text": "ECCV'26", "url": "https://eccv.ecva.net/virtual/2026/poster/5785" },
             { "text": "ToN'26 Submission", "url": "" }
           ]
         },
@@ -153,7 +153,7 @@
   "publications": [
     " [Attributing and Exploiting Safety Vectors through Global Optimization in Large Language Models](https://arxiv.org/abs/2601.15801), Fengheng Chu, **Jiahao Chen**, Yuhong Wang, Jun Wang, Zhihui Fu, Shouling Ji, Lu Dong, Songze Li, EMNLP 2026 Findings. [CCF-B]",
     " [Beyond Over-Refusal: Defending Indirect Prompt Injection via Latent Instruction Manifolds](), **Jiahao Chen**, Rui Yin, Xinfeng Li, Qianli Ma, Tianyu Du, Zhihui Fu, Jun Wang, Zhaoxiang Wang, Shouling Ji, EMNLP 2026 Findings. [CCF-B]",
-    " [FaceArmor: A Universal Facial Image Protection Against Diffusion-Based Manipulations](), Yiming Wang, **Jiahao Chen**, Qingming Li, Chunyi Zhou, Zhi Chen, Lingzhong Meng, Jinbao Li, Shouling Ji, ECCV 2026. [CCF-B]",
+    " [FaceArmor: A Universal Facial Image Protection Against Diffusion-Based Manipulations](https://eccv.ecva.net/virtual/2026/poster/5785), Yiming Wang, **Jiahao Chen**, Qingming Li, Chunyi Zhou, Zhi Chen, Lingzhong Meng, Jinbao Li, Shouling Ji, ECCV 2026. [CCF-B]",
     " [Customization under Fire: Plugin Poisoning in Text-to-Image Ecosystem](https://arxiv.org/abs/2606.09151), **Jiahao Chen**, Xing He, Yong Yang, Xinfeng Li, Chunyi Zhou, Junhao Li, Zhe Ma, Tianyu Du, and Shouling Ji, CCS 2026. [CCF-A] [Code](https://github.com/xaddwell/PoisonLoRA)",
     " [IntraGuard: Committee-Side Defenses Against Review Outsourcing to Commercial Chatbots](https://arxiv.org/abs/2605.05271), Oubo Ma, Ruixiao Lin, **Jiahao Chen**, Yuan Su, Yong Yang, Shouling Ji, CCS 2026. [CCF-A] [Code](https://github.com/maoubo/IntraGuard)",
     " [LoRAShield: Data-Free Editing Alignment for Secure Personalized LoRA Sharing](https://arxiv.org/pdf/2507.07056), **Jiahao Chen**$^\\star$, Junhao Li $^\\star$, Yiming Wang, Yong Yang, Yi Jiang, Chunyi Zhou, Qingming Li, Tianyu Du, Shouling Ji, KDD 2026. [CCF-A]",
