@@ -111,7 +111,9 @@
             { "text": "ICME'26", "url": "https://nesa.zju.edu.cn/download/icme2026__camera.pdf" },
             { "text": "KDD'26", "url": "https://arxiv.org/pdf/2507.07056" },
             { "text": "ICML'26", "url": "https://openreview.net/forum?id=1BLni5Uxsd" },
-            { "text": "AAAI'27 Submission", "url": "" }
+            { "text": "AAAI'27 Submission", "url": "" },
+            { "text": "Submission (Audio DeepFake Detection)", "url": "" },
+            { "text": "Submission (Prompt Copyright)", "url": "" }
           ]
         },
         {
@@ -120,7 +122,8 @@
             { "text": "CCS'26", "url": "https://arxiv.org/abs/2605.05271" },
             { "text": "TDSC'26", "url": "https://arxiv.org/abs/2412.18123" },
             { "text": "EMNLP'26 Findings", "url": "" },
-            { "text": "AAAI'27 Submission", "url": "" }
+            { "text": "AAAI'27 Submission", "url": "" },
+            { "text": "Submission (T2I Content Safety)", "url": "" }
           ]
         }
       ]
