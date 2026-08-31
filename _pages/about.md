@@ -21,7 +21,7 @@ redirect_from:
   </div>
 </div>
 
-<section class="profile-section card">
+<section class="profile-section card" id="research">
   <h2><i class="fas fa-flask"></i>AI Risk Measurement and Mitigation</h2>
   {% for area in profile.research_areas %}
   <div class="topic-group">
@@ -44,7 +44,7 @@ redirect_from:
   {% endfor %}
 </section>
 
-<section class="profile-section card">
+<section class="profile-section card" id="news">
   <h2><i class="fas fa-newspaper"></i>News</h2>
   <ul class="timeline-list">
     {% for item in profile.news %}
@@ -53,7 +53,7 @@ redirect_from:
   </ul>
 </section>
 
-<section class="profile-section card">
+<section class="profile-section card" id="publications">
   <div class="section-heading">
     <h2><i class="fas fa-book-open"></i>Selected Publications</h2>
     {{ profile.publications_note | markdownify }}
@@ -66,7 +66,7 @@ redirect_from:
 </section>
 
 <div class="compact-grid">
-  <section class="profile-section profile-section--compact card">
+  <section class="profile-section profile-section--compact card" id="honors">
     <h2><i class="fas fa-trophy"></i>Honors and Awards</h2>
     <ul class="simple-list">
       {% for item in profile.honors %}
@@ -75,7 +75,7 @@ redirect_from:
     </ul>
   </section>
 
-  <section class="profile-section profile-section--compact card">
+  <section class="profile-section profile-section--compact card" id="educations">
     <h2><i class="fas fa-graduation-cap"></i>Educations</h2>
     <ul class="simple-list">
       {% for item in profile.education %}
@@ -84,7 +84,7 @@ redirect_from:
     </ul>
   </section>
 
-  <section class="profile-section profile-section--compact card">
+  <section class="profile-section profile-section--compact card" id="service">
     <h2><i class="fas fa-users"></i>Service</h2>
     <ul class="simple-list">
       {% for item in profile.service %}
@@ -93,7 +93,7 @@ redirect_from:
     </ul>
   </section>
 
-  <section class="profile-section profile-section--compact card">
+  <section class="profile-section profile-section--compact card" id="internships">
     <h2><i class="fas fa-briefcase"></i>Internships</h2>
     <ul class="simple-list">
       {% for item in profile.internships %}
