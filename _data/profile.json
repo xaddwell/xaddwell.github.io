@@ -77,7 +77,8 @@
           "links": [
             { "text": "ICML'26", "url": "https://openreview.net/forum?id=Ra0pui9HXF" },
             { "text": "AAAI'27 Submission", "url": "" },
-            { "text": "Survey", "url": "https://github.com/xaddwell/awesome-agentic-memory-safety" },
+            { "text": "Survey (Self-Evolving)", "url": "https://xaddwell.github.io/Awesome-Self-Evolving-Agent-Safety/" },
+            { "text": "Survey (Agentic Memory)", "url": "https://github.com/xaddwell/awesome-agentic-memory-safety" },
             { "text": "Report", "url": "https://github.com/xaddwell/awesome-openclaw-security" }
           ]
         }
@@ -157,6 +158,7 @@
   ],
   "publications_note": "($^\\star$ denotes equal contribution) / Full list in [Google Scholar](https://scholar.google.com/citations?user=Z7SkCL8AAAAJ)",
   "publications": [
+    " [Safety in Self-Evolving Agents: A Survey](https://xaddwell.github.io/Awesome-Self-Evolving-Agent-Safety/), **Jiahao Chen**, Zhou Feng, Oubo Ma, Yichen Yan, Ruixiao Lin, et al., Survey. [PDF](https://xaddwell.github.io/Awesome-Self-Evolving-Agent-Safety/assets/SAVER-Survey.pdf)",
     " [Attributing and Exploiting Safety Vectors through Global Optimization in Large Language Models](https://arxiv.org/abs/2601.15801), Fengheng Chu, **Jiahao Chen**, Yuhong Wang, Jun Wang, Zhihui Fu, Shouling Ji, Lu Dong, Songze Li, EMNLP 2026 Findings. [CCF-B]",
     " [Beyond Over-Refusal: Defending Indirect Prompt Injection via Latent Instruction Manifolds](), **Jiahao Chen**, Rui Yin, Xinfeng Li, Qianli Ma, Tianyu Du, Zhihui Fu, Jun Wang, Zhaoxiang Wang, Shouling Ji, EMNLP 2026 Findings. [CCF-B] [Code](https://github.com/xaddwell/AEGIS)",
     " [FaceArmor: A Universal Facial Image Protection Against Diffusion-Based Manipulations](https://eccv.ecva.net/virtual/2026/poster/5785), Yiming Wang, **Jiahao Chen**, Qingming Li, Chunyi Zhou, Zhi Chen, Lingzhong Meng, Jinbao Li, Shouling Ji, ECCV 2026. [CCF-B]",
