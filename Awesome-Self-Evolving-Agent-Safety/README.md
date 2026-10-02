@@ -2,6 +2,7 @@
 
 # Safety in Self-Evolving Agents: A Survey
 
+[![arXiv](https://img.shields.io/badge/arXiv-2610.00093-b31b1b.svg)](https://arxiv.org/abs/2610.00093)
 [![Website](https://img.shields.io/badge/Website-Project%20Page-blue.svg)](https://xaddwell.github.io/Awesome-Self-Evolving-Agent-Safety/)
 [![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
@@ -12,7 +13,7 @@
 
 **A transition-centered survey of safety in self-evolving agents: how reusable influence persists, moves, and changes role across carriers — organized by the SAVER framework (`S×A → V→E→R`) over 683 coded papers.**
 
-[[Website]](https://xaddwell.github.io/Awesome-Self-Evolving-Agent-Safety/) · [[Paper Reader]](https://xaddwell.github.io/Awesome-Self-Evolving-Agent-Safety/papers.html) · [[Paper (PDF)]](assets/SAVER-Survey.pdf)
+[[arXiv]](https://arxiv.org/abs/2610.00093) · [[Website]](https://xaddwell.github.io/Awesome-Self-Evolving-Agent-Safety/) · [[Paper Reader]](https://xaddwell.github.io/Awesome-Self-Evolving-Agent-Safety/papers.html) · [[Paper (PDF)]](assets/SAVER-Survey.pdf)
 
 <img src="assets/img/banner.png" width="100%" alt="Safety in Self-Evolving Agents — SAVER: S×A → V → E → R">
 
@@ -167,11 +168,14 @@ We welcome corrections and new papers. Please open an issue using the [Paper Sub
 ## Citation
 
 ```bibtex
-@article{chen2026saver,
+@misc{chen2026safetyselfevolvingagentssurvey,
   title={Safety in Self-Evolving Agents: A Survey},
-  author={Chen, Jiahao and Feng, Zhou and Ma, Oubo and Yan, Yichen and Lin, Ruixiao and Zhang, Hangtao and Du, Linkang and An, Hengyu and Yang, Yong and Liu, Jun and Li, Junhao and Xu, Naen and Zhou, Chunyi and Su, Yuan and Jin, Zehao and Ma, Qianli and Qi, Leyi and Wang, Yiming and Ma, Zhe and Pu, Yuwen and Du, Mengyao and Song, Yuanyi and Huang, Enhao and Fu, Zhihui and Wang, Jun and Li, Jinfeng and Chen, Yuefeng and Xue, Hui and Li, Yiming and Du, Tianyu and Ji, Shouling},
+  author={Jiahao Chen and Zhou Feng and Oubo Ma and Yichen Yan and Ruixiao Lin and Hangtao Zhang and Linkang Du and Hengyu An and Yong Yang and Jun Liu and Junhao Li and Naen Xu and Chunyi Zhou and Yuan Su and Zehao Jin and Qianli Ma and Leyi Qi and Yiming Wang and Zhe Ma and Yuwen Pu and Mengyao Du and Yuanyi Song and Enhao Huang and Zhihui Fu and Jun Wang and Jinfeng Li and Yuefeng Chen and Hui Xue and Yiming Li and Tianyu Du and Shouling Ji},
   year={2026},
-  note={Preprint}
+  eprint={2610.00093},
+  archivePrefix={arXiv},
+  primaryClass={cs.CR},
+  url={https://arxiv.org/abs/2610.00093}
 }
 ```
 

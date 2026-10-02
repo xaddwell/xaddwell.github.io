@@ -2,9 +2,10 @@
 
 > A transition-centered survey of safety in self-evolving agents, organized by the SAVER framework (S×A → V→E→R) over 683 coded papers.
 
-This repository accompanies the survey paper "Safety in Self-Evolving Agents: A Survey" (2026, preprint).
+This repository accompanies the survey paper "Safety in Self-Evolving Agents: A Survey" (arXiv:2610.00093, 2026).
 It provides the project page, the coded literature surface, and the roadmap and classification tables of the manuscript.
 
+arXiv: https://arxiv.org/abs/2610.00093
 GitHub: https://github.com/xaddwell/awesome-self-evolving-agent-safety
 Project Page: https://xaddwell.github.io/Awesome-Self-Evolving-Agent-Safety/
 Paper Reader: https://xaddwell.github.io/Awesome-Self-Evolving-Agent-Safety/papers.html
