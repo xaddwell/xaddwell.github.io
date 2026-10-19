@@ -5,8 +5,15 @@ excerpt: "Paper pages and personal posts."
 author_profile: true
 ---
 
-{% assign paper_posts = site.posts | where_exp: "post", "post.tags contains 'paper'" %}
-{% assign personal_posts = site.posts | where_exp: "post", "post.tags contains 'paper' == false" %}
+{% assign paper_posts = "" | split: "" %}
+{% assign personal_posts = "" | split: "" %}
+{% for post in site.posts %}
+  {% if post.tags contains "paper" %}
+    {% assign paper_posts = paper_posts | push: post %}
+  {% else %}
+    {% assign personal_posts = personal_posts | push: post %}
+  {% endif %}
+{% endfor %}
 
 <div class="home-hero card" id="posts-top">
   <div class="home-hero__intro">
