@@ -2,27 +2,36 @@
 main:
   - title: "About Me"
     url: "/#about"
+    icon: "fas fa-user"
 
   - title: "Research"
     url: "/#research"
+    icon: "fas fa-flask"
 
   - title: "News"
     url: "/#news"
+    icon: "fas fa-newspaper"
 
   - title: "Publications"
     url: "/#publications"
+    icon: "fas fa-book-open"
 
   - title: "Posts"
     url: "/posts/"
+    icon: "fas fa-pen"
 
   - title: "Honors and Awards"
     url: "/#honors"
+    icon: "fas fa-trophy"
 
   - title: "Educations"
     url: "/#educations"
+    icon: "fas fa-graduation-cap"
 
   - title: "Service"
     url: "/#service"
+    icon: "fas fa-users"
 
   - title: "Internships"
     url: "/#internships"
+    icon: "fas fa-briefcase"
