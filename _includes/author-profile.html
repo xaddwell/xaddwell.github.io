@@ -7,7 +7,7 @@
 <div itemscope itemtype="http://schema.org/Person" class="profile_box">
 
   <div class="author__avatar">
-    <img src="{% if site.data.profile and site.data.profile.site.avatar %}{{ site.data.profile.site.avatar }}{% else %}{{ author.avatar }}{% endif %}" class="author__avatar" alt="{% if site.data.profile and site.data.profile.profile.name %}{{ site.data.profile.profile.name }}{% else %}{{ author.name }}{% endif %}">
+    <img src="{% if site.data.profile and site.data.profile.site.avatar %}{{ site.data.profile.site.avatar | relative_url }}{% else %}{{ author.avatar | relative_url }}{% endif %}" class="author__avatar" alt="{% if site.data.profile and site.data.profile.profile.name %}{{ site.data.profile.profile.name }}{% else %}{{ author.name }}{% endif %}">
   </div>
 
   <div class="author__content">
@@ -231,4 +231,24 @@
       {% endif %}
     </div>
   </div>
+
+  {% if site.data.navigation.main %}
+  <nav class="sidebar-nav" aria-label="Section navigation">
+    <ul class="sidebar-nav__list">
+      {% for link in site.data.navigation.main %}
+        {% if link.url contains "#" %}
+          {% assign is_active = false %}
+          {% if link.url == page.url %}{% assign is_active = true %}{% endif %}
+          {% if page.url == "/" and link.url == "/#about" %}{% assign is_active = true %}{% endif %}
+          <li class="sidebar-nav__item{% if is_active %} is-active{% endif %}">
+            <a href="{{ link.url }}" class="sidebar-nav__link">
+              {% if link.icon %}<i class="{{ link.icon }}" aria-hidden="true"></i>{% endif %}
+              <span>{{ link.title }}</span>
+            </a>
+          </li>
+        {% endif %}
+      {% endfor %}
+    </ul>
+  </nav>
+  {% endif %}
 </div>

@@ -845,16 +845,15 @@ span.chip.chip--muted {
 }
 
 /* ============================================================
-   Sidebar navigation card
+   Sidebar navigation (inside the author card)
    ============================================================ */
 
 .sidebar-nav {
-    margin-top: 1.1rem;
-    background: var(--card-bg);
-    border: 1px solid var(--card-border);
-    border-radius: 16px;
-    box-shadow: var(--shadow-sm);
-    padding: 0.65rem;
+    width: 100%;
+    flex: 1 0 100%;
+    margin-top: 1.15rem;
+    padding-top: 0.95rem;
+    border-top: 1px solid var(--card-border);
 }
 
 .sidebar-nav__list {
@@ -863,16 +862,20 @@ span.chip.chip--muted {
     padding: 0;
 }
 
+.sidebar-nav__item + .sidebar-nav__item {
+    margin-top: 0.15rem;
+}
+
 .sidebar-nav__link {
     display: flex;
     align-items: center;
-    gap: 0.55rem;
-    padding: 0.42rem 0.6rem;
+    gap: 0.6rem;
+    padding: 0.5rem 0.6rem;
     border-radius: 10px;
     color: var(--text-muted);
-    font-size: 0.88em;
+    font-size: 0.9em;
     font-weight: 500;
-    line-height: 1.35;
+    line-height: 1.45;
     text-decoration: none;
     transition: background 0.15s ease, color 0.15s ease;
 }
@@ -901,12 +904,16 @@ span.chip.chip--muted {
     .sidebar-nav__list {
         display: grid;
         grid-template-columns: repeat(2, minmax(0, 1fr));
-        gap: 0.3rem;
+        gap: 0.45rem;
+    }
+
+    .sidebar-nav__item + .sidebar-nav__item {
+        margin-top: 0;
     }
 
     .sidebar-nav__link {
-        padding: 0.45rem 0.6rem;
-        font-size: 0.85em;
+        padding: 0.55rem 0.6rem;
+        font-size: 0.86em;
     }
 }
 

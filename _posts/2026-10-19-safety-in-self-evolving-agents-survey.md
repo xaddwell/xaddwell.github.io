@@ -4,6 +4,7 @@ title: "Safety in Self-Evolving Agents: A Survey"
 date: 2026-10-19
 tags: [paper, survey, agent-safety]
 permalink: /posts/safety-in-self-evolving-agents/
+excerpt: "A survey of safety and security risks in self-evolving agents: threat models, attack surfaces, and defenses across the self-evolution lifecycle."
 author_profile: true
 ---
 
