@@ -16,10 +16,6 @@ main:
     url: "/#publications"
     icon: "fas fa-book-open"
 
-  - title: "Posts"
-    url: "/posts/"
-    icon: "fas fa-pen"
-
   - title: "Honors and Awards"
     url: "/#honors"
     icon: "fas fa-trophy"
@@ -35,3 +31,7 @@ main:
   - title: "Internships"
     url: "/#internships"
     icon: "fas fa-briefcase"
+
+  - title: "Posts"
+    url: "/posts/"
+    icon: "fas fa-pen"
