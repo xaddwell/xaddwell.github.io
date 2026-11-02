@@ -845,15 +845,22 @@ span.chip.chip--muted {
 }
 
 /* ============================================================
-   Sidebar navigation (inside the author card)
+   Section navigation (desktop: inside author card / mobile: sticky bar)
    ============================================================ */
 
 .sidebar-nav {
     width: 100%;
-    flex: 1 0 100%;
+    min-width: 0;
+}
+
+.sidebar-nav--card {
     margin-top: 1.15rem;
     padding-top: 0.95rem;
     border-top: 1px solid var(--card-border);
+}
+
+.sidebar-nav--mobile {
+    display: none;
 }
 
 .sidebar-nav__list {
@@ -907,34 +914,48 @@ span.chip.chip--muted {
 }
 
 @include breakpoint(max-width $medium) {
-    .sidebar-nav {
-        margin-top: 0.95rem;
-        padding-top: 0.8rem;
+    .masthead {
+        position: static;
     }
 
-    .sidebar-nav__list {
+    .sidebar-nav--card {
+        display: none;
+    }
+
+    .sidebar-nav--mobile {
+        display: block;
+        position: sticky;
+        top: 0;
+        z-index: 30;
+        margin: 0 0 0.9rem;
+        padding: 0.55rem 0.95rem;
+        background: var(--card-bg);
+        border-bottom: 1px solid var(--card-border);
+        box-shadow: var(--shadow-sm);
+    }
+
+    .sidebar-nav--mobile .sidebar-nav__list {
         display: flex;
         flex-wrap: nowrap;
         gap: 0.45rem;
         overflow-x: auto;
         -webkit-overflow-scrolling: touch;
         scrollbar-width: none;
-        padding-bottom: 0.15rem;
     }
 
-    .sidebar-nav__list::-webkit-scrollbar {
+    .sidebar-nav--mobile .sidebar-nav__list::-webkit-scrollbar {
         display: none;
     }
 
-    .sidebar-nav__item {
+    .sidebar-nav--mobile .sidebar-nav__item {
         flex: 0 0 auto;
     }
 
-    .sidebar-nav__item + .sidebar-nav__item {
+    .sidebar-nav--mobile .sidebar-nav__item + .sidebar-nav__item {
         margin-top: 0;
     }
 
-    .sidebar-nav__item--divider {
+    .sidebar-nav--mobile .sidebar-nav__item--divider {
         margin-top: 0;
         padding-top: 0;
         border-top: 0;
@@ -943,7 +964,7 @@ span.chip.chip--muted {
         border-left: 1px solid var(--card-border);
     }
 
-    .sidebar-nav__link {
+    .sidebar-nav--mobile .sidebar-nav__link {
         padding: 0.4rem 0.7rem;
         font-size: 0.82em;
         white-space: nowrap;
