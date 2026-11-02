@@ -28,45 +28,39 @@
 
 <script>
 (function () {
-  var bars = document.querySelectorAll('.sidebar-nav--mobile');
-  if (!bars.length) return;
+  var nav = document.querySelector('.sidebar-nav--mobile');
+  if (!nav) return;
 
-  function closeAll(except) {
-    Array.prototype.forEach.call(bars, function (bar) {
-      if (bar === except) return;
-      bar.classList.remove('is-open');
-      var b = bar.querySelector('.sidebar-nav__toggle');
-      if (b) b.setAttribute('aria-expanded', 'false');
+  var toggle = nav.querySelector('.sidebar-nav__toggle');
+  var closeBtn = nav.querySelector('.section-drawer__close');
+  var backdrop = document.querySelector('.section-drawer__backdrop');
+
+  function setOpen(open) {
+    nav.classList.toggle('is-open', open);
+    document.body.classList.toggle('nav-open', open);
+    if (toggle) toggle.setAttribute('aria-expanded', open ? 'true' : 'false');
+  }
+
+  if (toggle) {
+    toggle.addEventListener('click', function () {
+      setOpen(!nav.classList.contains('is-open'));
     });
   }
 
-  Array.prototype.forEach.call(bars, function (bar) {
-    var btn = bar.querySelector('.sidebar-nav__toggle');
-    if (!btn) return;
+  if (closeBtn) {
+    closeBtn.addEventListener('click', function () { setOpen(false); });
+  }
 
-    btn.addEventListener('click', function (e) {
-      e.stopPropagation();
-      closeAll(bar);
-      var open = bar.classList.toggle('is-open');
-      btn.setAttribute('aria-expanded', open ? 'true' : 'false');
-    });
+  if (backdrop) {
+    backdrop.addEventListener('click', function () { setOpen(false); });
+  }
 
-    Array.prototype.forEach.call(bar.querySelectorAll('a'), function (a) {
-      a.addEventListener('click', function () {
-        bar.classList.remove('is-open');
-        btn.setAttribute('aria-expanded', 'false');
-      });
-    });
+  document.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape') setOpen(false);
   });
 
-  document.addEventListener('click', function (e) {
-    Array.prototype.forEach.call(bars, function (bar) {
-      if (!bar.contains(e.target)) {
-        bar.classList.remove('is-open');
-        var b = bar.querySelector('.sidebar-nav__toggle');
-        if (b) b.setAttribute('aria-expanded', 'false');
-      }
-    });
+  Array.prototype.forEach.call(nav.querySelectorAll('.sidebar-nav__link'), function (link) {
+    link.addEventListener('click', function () { setOpen(false); });
   });
 })();
 </script>

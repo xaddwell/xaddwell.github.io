@@ -1,26 +1,22 @@
-{% if site.data.navigation.main %}
-<nav class="sidebar-nav{% if include.modifier %} {{ include.modifier }}{% endif %}" aria-label="Section navigation">
-  {% if include.modifier == "sidebar-nav--mobile" %}
-  <button class="sidebar-nav__toggle" type="button" aria-expanded="false" aria-label="Toggle navigation">
+{% if include.modifier == "sidebar-nav--mobile" %}
+<nav class="sidebar-nav sidebar-nav--mobile" aria-label="Section navigation">
+  <button class="sidebar-nav__toggle" type="button" aria-expanded="false">
     <i class="fas fa-bars" aria-hidden="true"></i>
     <span>Sections</span>
-    <i class="fas fa-chevron-down sidebar-nav__chevron" aria-hidden="true"></i>
   </button>
-  {% endif %}
-  <ul class="sidebar-nav__list">
-    {% for link in site.data.navigation.main %}
-      {% assign is_active = false %}
-      {% if link.url == page.url %}{% assign is_active = true %}{% endif %}
-      {% if page.url == "/" and link.url == "/#about" %}{% assign is_active = true %}{% endif %}
-      {% assign is_divider = false %}
-      {% unless link.url contains "#" %}{% assign is_divider = true %}{% endunless %}
-      <li class="sidebar-nav__item{% if is_active %} is-active{% endif %}{% if is_divider %} sidebar-nav__item--divider{% endif %}">
-        <a href="{{ link.url }}" class="sidebar-nav__link">
-          {% if link.icon %}<i class="{{ link.icon }}" aria-hidden="true"></i>{% endif %}
-          <span>{{ link.title }}</span>
-        </a>
-      </li>
-    {% endfor %}
-  </ul>
+  <div class="section-drawer" role="dialog" aria-modal="true" aria-label="Section navigation">
+    <div class="section-drawer__head">
+      <span class="section-drawer__title">Sections</span>
+      <button class="section-drawer__close" type="button" aria-label="Close menu"><i class="fas fa-times" aria-hidden="true"></i></button>
+    </div>
+    {% include section-nav-list.html %}
+  </div>
 </nav>
+<div class="section-drawer__backdrop" aria-hidden="true"></div>
+{% else %}
+{% if site.data.navigation.main %}
+<nav class="sidebar-nav sidebar-nav--card" aria-label="Section navigation">
+  {% include section-nav-list.html %}
+</nav>
+{% endif %}
 {% endif %}
