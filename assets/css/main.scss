@@ -928,27 +928,62 @@ span.chip.chip--muted {
         top: 0;
         z-index: 30;
         margin: 0 0 0.9rem;
-        padding: 0.55rem 0.95rem;
         background: var(--card-bg);
         border-bottom: 1px solid var(--card-border);
         box-shadow: var(--shadow-sm);
     }
 
-    .sidebar-nav--mobile .sidebar-nav__list {
+    .sidebar-nav__toggle {
         display: flex;
-        flex-wrap: nowrap;
-        gap: 0.45rem;
-        overflow-x: auto;
-        -webkit-overflow-scrolling: touch;
-        scrollbar-width: none;
+        align-items: center;
+        gap: 0.6rem;
+        width: 100%;
+        margin: 0;
+        padding: 0.75rem 1rem;
+        border: 0;
+        background: transparent;
+        color: var(--text);
+        font-family: inherit;
+        font-size: 0.92em;
+        font-weight: 600;
+        text-align: left;
+        cursor: pointer;
     }
 
-    .sidebar-nav--mobile .sidebar-nav__list::-webkit-scrollbar {
+    .sidebar-nav__toggle > i:first-child {
+        color: var(--accent);
+        font-size: 0.95em;
+    }
+
+    .sidebar-nav__chevron {
+        margin-left: auto;
+        color: var(--text-muted);
+        font-size: 0.85em;
+        transition: transform 0.2s ease;
+    }
+
+    .sidebar-nav--mobile.is-open .sidebar-nav__chevron {
+        transform: rotate(180deg);
+    }
+
+    .sidebar-nav--mobile .sidebar-nav__list {
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 100%;
         display: none;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 0.25rem;
+        padding: 0.45rem 0.65rem 0.75rem;
+        background: var(--card-bg);
+        border-bottom: 1px solid var(--card-border);
+        box-shadow: var(--shadow-md);
+        max-height: 65vh;
+        overflow-y: auto;
     }
 
-    .sidebar-nav--mobile .sidebar-nav__item {
-        flex: 0 0 auto;
+    .sidebar-nav--mobile.is-open .sidebar-nav__list {
+        display: grid;
     }
 
     .sidebar-nav--mobile .sidebar-nav__item + .sidebar-nav__item {
@@ -956,18 +991,16 @@ span.chip.chip--muted {
     }
 
     .sidebar-nav--mobile .sidebar-nav__item--divider {
-        margin-top: 0;
-        padding-top: 0;
-        border-top: 0;
-        margin-left: 0.2rem;
-        padding-left: 0.6rem;
-        border-left: 1px solid var(--card-border);
+        grid-column: 1 / -1;
+        margin-top: 0.2rem;
+        padding-top: 0.5rem;
+        border-top: 1px solid var(--card-border);
     }
 
     .sidebar-nav--mobile .sidebar-nav__link {
-        padding: 0.4rem 0.7rem;
-        font-size: 0.82em;
-        white-space: nowrap;
+        padding: 0.55rem 0.6rem;
+        font-size: 0.84em;
+        white-space: normal;
     }
 
     .profile_box {
