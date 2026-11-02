@@ -853,6 +853,11 @@ span.chip.chip--muted {
     min-width: 0;
 }
 
+.profile-section[id],
+.home-hero[id] {
+    scroll-margin-top: 1.25rem;
+}
+
 .sidebar-nav--card {
     margin-top: 1.15rem;
     padding-top: 0.95rem;
@@ -923,6 +928,11 @@ span.chip.chip--muted {
         position: static;
     }
 
+    .profile-section[id],
+    .home-hero[id] {
+        scroll-margin-top: 4.25rem;
+    }
+
     body.nav-open {
         overflow: hidden;
     }
@@ -935,7 +945,7 @@ span.chip.chip--muted {
         display: block;
         position: sticky;
         top: 0.55rem;
-        z-index: 40;
+        z-index: 65;
         margin: 0 0 0.85rem;
         padding: 0 0.9rem;
         background: transparent;

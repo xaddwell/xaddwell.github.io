@@ -60,7 +60,24 @@
   });
 
   Array.prototype.forEach.call(nav.querySelectorAll('.sidebar-nav__link'), function (link) {
-    link.addEventListener('click', function () { setOpen(false); });
+    link.addEventListener('click', function (e) {
+      setOpen(false);
+
+      var href = link.getAttribute('href') || '';
+      var hashIndex = href.indexOf('#');
+      if (hashIndex === -1) return;
+
+      var path = href.slice(0, hashIndex);
+      if (path && path !== '/' && path !== location.pathname) return;
+
+      var target = document.getElementById(href.slice(hashIndex + 1));
+      if (!target) return;
+
+      e.preventDefault();
+      e.stopPropagation();
+      target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      if (history.replaceState) history.replaceState(null, '', href.slice(hashIndex));
+    }, true);
   });
 })();
 </script>
