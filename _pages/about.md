@@ -63,6 +63,21 @@ redirect_from:
     <li>{{ item | replace: "[CCF-A]", '<span class="ccf-badge ccf-a">CCF-A</span>' | replace: "[CCF-B]", '<span class="ccf-badge ccf-b">CCF-B</span>' | replace: "[CCF-C]", '<span class="ccf-badge ccf-c">CCF-C</span>' | markdownify | remove: "<p>" | remove: "</p>" }}</li>
     {% endfor %}
   </ol>
+
+  {% if profile.preprints and profile.preprints.size > 0 %}
+  <details class="preprint-box">
+    <summary>
+      <i class="fas fa-chevron-right" aria-hidden="true"></i>
+      <span>Preprints under review</span>
+      <span class="chip chip--muted">{{ profile.preprints.size }}</span>
+    </summary>
+    <ol class="publication-list publication-list--preprints">
+      {% for item in profile.preprints %}
+      <li>{{ item | markdownify | remove: "<p>" | remove: "</p>" }}</li>
+      {% endfor %}
+    </ol>
+  </details>
+  {% endif %}
 </section>
 
 <div class="compact-grid">

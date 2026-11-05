@@ -656,6 +656,46 @@ span.chip.chip--muted {
     background: linear-gradient(135deg, #059669, #047857);
 }
 
+/* Collapsible preprints block */
+.preprint-box {
+    margin-top: 1.6rem;
+    padding-top: 1.1rem;
+    border-top: 1px solid var(--card-border);
+}
+
+.preprint-box summary {
+    display: flex;
+    align-items: center;
+    gap: 0.55rem;
+    cursor: pointer;
+    list-style: none;
+    font-weight: 600;
+    color: var(--text);
+    user-select: none;
+}
+
+.preprint-box summary::-webkit-details-marker {
+    display: none;
+}
+
+.preprint-box summary > i {
+    font-size: 0.72em;
+    color: var(--accent);
+    transition: transform 0.2s ease;
+}
+
+.preprint-box[open] summary > i {
+    transform: rotate(90deg);
+}
+
+.preprint-box .publication-list--preprints {
+    margin-top: 0.85rem;
+}
+
+.preprint-box .publication-list li {
+    font-size: 0.94em;
+}
+
 /* ============================================================
    Compact grid (honors / education / service / internships)
    ============================================================ */

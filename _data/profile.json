@@ -48,9 +48,9 @@
             { "text": "TIFS'26", "url": "https://ieeexplore.ieee.org/document/11296926" },
             { "text": "ICML'26", "url": "https://arxiv.org/abs/2605.14587" },
             { "text": "TDSC'26 Submission", "url": "" },
-            { "text": "AAAI'27 Submission (Data Poisoning)", "url": "" },
+            { "text": "AAAI'27 Submission (Data Poisoning)", "url": "https://arxiv.org/abs/2610.01367" },
             { "text": "AAAI'27 Submission (PRISM)", "url": "" },
-            { "text": "KDD'27 Submission", "url": "" },
+            { "text": "KDD'27 Submission", "url": "https://arxiv.org/abs/2607.26099" },
             { "text": "NeurIPS'26 Submission", "url": "" }
           ]
         },
@@ -59,7 +59,7 @@
           "links": [
             { "text": "AAAI'25", "url": "https://ojs.aaai.org/index.php/AAAI/article/view/33884" },
             { "text": "CCS'26", "url": "https://arxiv.org/abs/2606.09151" },
-            { "text": "KDD'27 Submission", "url": "" }
+            { "text": "KDD'27 Submission", "url": "https://arxiv.org/abs/2607.25227" }
           ]
         },
         {
@@ -76,7 +76,7 @@
           "label": "Agent Security",
           "links": [
             { "text": "ICML'26", "url": "https://openreview.net/forum?id=Ra0pui9HXF" },
-            { "text": "AAAI'27 Submission", "url": "" },
+            { "text": "AAAI'27 Submission", "url": "https://arxiv.org/abs/2609.02564" },
             { "text": "Survey (Self-Evolving)", "url": "https://xaddwell.github.io/Awesome-Self-Evolving-Agent-Safety/" },
             { "text": "Survey (Agentic Memory)", "url": "https://github.com/xaddwell/awesome-agentic-memory-safety" },
             { "text": "Report", "url": "https://github.com/xaddwell/awesome-openclaw-security" }
@@ -112,7 +112,7 @@
             { "text": "ICME'26", "url": "https://nesa.zju.edu.cn/download/icme2026__camera.pdf" },
             { "text": "KDD'26 Oral", "url": "https://arxiv.org/pdf/2507.07056" },
             { "text": "ICML'26", "url": "https://openreview.net/forum?id=1BLni5Uxsd" },
-            { "text": "AAAI'27 Submission", "url": "" },
+            { "text": "AAAI'27 Submission", "url": "https://arxiv.org/abs/2609.02553" },
             { "text": "Submission (Audio DeepFake Detection)", "url": "" },
             { "text": "Submission (Prompt Copyright)", "url": "" }
           ]
@@ -123,7 +123,7 @@
             { "text": "CCS'26", "url": "https://arxiv.org/abs/2605.05271" },
             { "text": "TDSC'26", "url": "https://arxiv.org/abs/2412.18123" },
             { "text": "EMNLP'26 Findings", "url": "" },
-            { "text": "AAAI'27 Submission", "url": "" },
+            { "text": "AAAI'27 Submission", "url": "https://arxiv.org/abs/2604.25562" },
             { "text": "Submission (T2I Content Safety)", "url": "" }
           ]
         }
@@ -160,7 +160,6 @@
   ],
   "publications_note": "($^\\star$ denotes equal contribution; first/co-first-author papers are listed first) / Full list in [Google Scholar](https://scholar.google.com/citations?user=Z7SkCL8AAAAJ)",
   "publications": [
-    " [Safety in Self-Evolving Agents: A Survey](https://xaddwell.github.io/Awesome-Self-Evolving-Agent-Safety/), **Jiahao Chen**, Zhou Feng, Oubo Ma, Yichen Yan, Ruixiao Lin, et al., Survey. [PDF](https://xaddwell.github.io/Awesome-Self-Evolving-Agent-Safety/assets/SAVER-Survey.pdf)",
     " [Beyond Over-Refusal: Defending Indirect Prompt Injection via Latent Instruction Manifolds](), **Jiahao Chen**, Rui Yin, Xinfeng Li, Qianli Ma, Tianyu Du, Zhihui Fu, Jun Wang, Zhaoxiang Wang, Shouling Ji, EMNLP 2026 Findings. [CCF-B] [Code](https://github.com/xaddwell/AEGIS)",
     " [Customization under Fire: Plugin Poisoning in Text-to-Image Ecosystem](https://arxiv.org/abs/2606.09151), **Jiahao Chen**, Xing He, Yong Yang, Xinfeng Li, Chunyi Zhou, Junhao Li, Zhe Ma, Tianyu Du, and Shouling Ji, CCS 2026. [CCF-A] [Code](https://github.com/xaddwell/PoisonLoRA)",
     " [LoRAShield: Data-Free Editing Alignment for Secure Personalized LoRA Sharing](https://arxiv.org/pdf/2507.07056), **Jiahao Chen**$^\\star$, Junhao Li $^\\star$, Yiming Wang, Yong Yang, Yi Jiang, Chunyi Zhou, Qingming Li, Tianyu Du, Shouling Ji, KDD 2026 Oral. [CCF-A] [Code](https://github.com/xaddwell/LoRAShield)",
@@ -190,6 +189,25 @@
     " [Enhancing Adversarial Transferability via Self-Ensemble Feature Alignment](https://dl.acm.org/doi/10.1145/3731715.3733325), Zhiming Zhao, **Jiahao Chen**, Qingming Li, Chunyi Zhou, Shouling Ji, ICMR 2025 Oral. [CCF-B]",
     " [AdvUSL: Targeted Adversarial Attack against U-shaped Split Learning](https://www.computer.org/csdl/proceedings-article/mass/2024/639900a357/21kuuM5CT28), Yunxiao He, Chunqiang Hu, Yuwen Pu, **Jiahao Chen**, Xingwang Li, MASS 2024. [CCF-C]",
     " [Universal defensive underpainting patch: Making your text invisible to optical character recognition](https://dl.acm.org/doi/abs/10.1145/3581783.3613768), JiaCheng Deng, Li Dong, **Jiahao Chen**, Diqun Yan, Rangding Wang, Dengpan Ye, Lingchen Zhao, Jinyu Tian, ACM MM 2023. [CCF-A] [Code](https://github.com/QRICKDD/UDUP)"
+  ],
+  "preprints": [
+    " [StateWise: Diagnosing and Repairing Persistent Operational State Before Agent Actions](https://arxiv.org/abs/2610.05241), Yongyuan Peng, Zhou Feng, Tongying Wu, **Jiahao Chen**, Yuan Su, Chunyi Zhou, Tianyu Du, Shouling Ji, arXiv 2026.",
+    " [Sleeping Secrets: How Fine-Tuning Reawakens Privacy Risks in Language Models](https://arxiv.org/abs/2610.01365), Jianhong Li, **Jiahao Chen**, Yuwen Pu, Chunyi Zhou, Oubo Ma, Zhou Feng, Hangtao Zhang, Jichao Bi, Chunqiang Hu, arXiv 2026.",
+    " [High-quality Data Do not Mean Safe! Poisoning LLMs after Data Selection](https://arxiv.org/abs/2610.01367), Kaiyang Li, **Jiahao Chen**, Yuwen Pu, Chunyi Zhou, Tong Zhang, Bin Cai, Chunqiang Hu, Haibo Hu, arXiv 2026.",
+    " [Safety in Self-Evolving Agents: A Survey](https://arxiv.org/abs/2610.00093), **Jiahao Chen**, Zhou Feng, Oubo Ma, Yichen Yan, Ruixiao Lin, Hangtao Zhang, Linkang Du, Hengyu An, Yong Yang, Jun Liu, Junhao Li, Naen Xu, Chunyi Zhou, Yuan Su, Zehao Jin, Qianli Ma, Leyi Qi, Yiming Wang, Zhe Ma, Yuwen Pu, Mengyao Du, Yuanyi Song, Enhao Huang, Zhihui Fu, Jun Wang, Jinfeng Li, Yuefeng Chen, Hui Xue, Yiming Li, Tianyu Du, Shouling Ji, arXiv 2026.",
+    " [A Finger on the Scale: Covert Policy Steering through Agentic Skills](https://arxiv.org/abs/2609.02564), Jiarui Li, **Jiahao Chen**, Chunyi Zhou, Yuwen Pu, Oubo Ma, Zhou Feng, Chunqiang Hu, Shouling Ji, arXiv 2026.",
+    " [The Shape of Ownership: Verifying LLM Provenance through Semantic Structures](https://arxiv.org/abs/2609.02553), Zhongrui Sun, **Jiahao Chen**, Oubo Ma, Yuwen Pu, Zhou Feng, Haibo Hu, Shouling Ji, arXiv 2026.",
+    " [Lilith: Backdoor Generalization under Training-Inference Trigger Shift](https://arxiv.org/abs/2607.26099), Zhou Feng, **Jiahao Chen**, Chunyi Zhou, Yuan Su, Tianyu Du, Yuwen Pu, Jianhai Chen, Jinbao Li, Shouling Ji, arXiv 2026.",
+    " [Flipping Minds by Flipping Bits: Decision-Level Cognitive Hijacking of Large Language Models](https://arxiv.org/abs/2607.25227), Yu Yan, **Jiahao Chen**, Siqi Lu, Yongjuan Wang, Ziming Zhao, Zhaoxuan Li, Tianyu Du, Qingjun Yuan, Shouling Ji, arXiv 2026.",
+    " [Profiling for Pennies: Unveiling the Privacy Iceberg of LLM Agents](https://arxiv.org/abs/2605.06232), **Jiahao Chen**, Qi Zhang, Ruixiao Lin, Chunyi Zhou, Tianyu Du, Qingming Li, Tong Zhang, Junhao Li, Yuwen Pu, Shouling Ji, arXiv 2026.",
+    " [SnapGuard: Lightweight Prompt Injection Detection for Screenshot-Based Web Agents](https://arxiv.org/abs/2604.25562), Mengyao Du, Han Fang, Haokai Ma, **Jiahao Chen**, Kai Xu, Quanjun Yin, Ee-Chien Chang, arXiv 2026.",
+    " [Unveiling the Security Risks of Federated Learning in the Wild: From Research to Practice](https://arxiv.org/abs/2603.20615), **Jiahao Chen**, Zhiming Zhao, Yuwen Pu, Chunyi Zhou, Zhou Feng, Songze Li, Shouling Ji, arXiv 2026.",
+    " [FreeTalk:A plug-and-play and black-box defense against speech synthesis attacks](https://arxiv.org/abs/2509.00561), Yuwen Pu, Zhou Feng, Chunyi Zhou, **Jiahao Chen**, Chunqiang Hu, Haibo Hu, Shouling Ji, arXiv 2025.",
+    " [Rethinking the Vulnerabilities of Face Recognition Systems:From a Practical Perspective](https://arxiv.org/abs/2405.12786), **Jiahao Chen**, Zhiqiang Shen, Yuwen Pu, Chunyi Zhou, Changjiang Li, Jiliang Li, Ting Wang, Shouling Ji, arXiv 2024.",
+    " [Dullahan: Stealthy Backdoor Attack against Without-Label-Sharing Split Learning](https://arxiv.org/abs/2405.12751), Yuwen Pu, Zhuoyuan Ding, **Jiahao Chen**, Chunyi Zhou, Qingming Li, Chunqiang Hu, Shouling Ji, arXiv 2024.",
+    " [Residual-Guided Non-Intrusive Speech Quality Assessment](https://arxiv.org/abs/2203.11499), Zhe Ye, **Jiahao Chen**, Diqun Yan, arXiv 2022.",
+    " [Adversarial Attacks on Machinery Fault Diagnosis](https://arxiv.org/abs/2110.02498), **Jiahao Chen**, Diqun Yan, arXiv 2021.",
+    " Arcueid: Multi-trigger Cloud Shaping for Unified Backdoor Attack Paradigms, Zhou Feng, **Jiahao Chen**, Chunyi Zhou, Tianyu Du, Yuwen Pu, et al., Manuscript."
   ],
   "honors": [
     "*2026.10* 2025-2026 National Scholarship for Graduate Students, Zhejiang University.",

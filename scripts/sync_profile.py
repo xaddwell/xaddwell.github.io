@@ -66,6 +66,25 @@ def render_readme(profile: dict) -> str:
             profile["publications_note"],
             render_list([item.strip() for item in profile["publications"]]),
             "",
+        ]
+    )
+
+    preprints = profile.get("preprints") or []
+    if preprints:
+        parts.extend(
+            [
+                "# Preprints (under review)",
+                f"<details><summary>Preprints under review ({len(preprints)})</summary>",
+                "",
+                render_list([item.strip() for item in preprints]),
+                "",
+                "</details>",
+                "",
+            ]
+        )
+
+    parts.extend(
+        [
             "# Honors and Awards",
             render_list(profile["honors"]),
             "",
