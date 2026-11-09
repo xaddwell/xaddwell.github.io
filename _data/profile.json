@@ -47,11 +47,9 @@
             { "text": "KDD'26", "url": "https://arxiv.org/abs/2512.10402" },
             { "text": "TIFS'26", "url": "https://ieeexplore.ieee.org/document/11296926" },
             { "text": "ICML'26", "url": "https://arxiv.org/abs/2605.14587" },
-            { "text": "TDSC'26 Submission", "url": "" },
             { "text": "AAAI'27 Submission (Data Poisoning)", "url": "https://arxiv.org/abs/2610.01367" },
             { "text": "AAAI'27 Submission (PRISM)", "url": "" },
-            { "text": "KDD'27 Submission", "url": "https://arxiv.org/abs/2607.26099" },
-            { "text": "NeurIPS'26 Submission", "url": "" }
+            { "text": "KDD'27 Submission", "url": "https://arxiv.org/abs/2607.26099" }
           ]
         },
         {
@@ -68,8 +66,7 @@
             { "text": "ICLR'26", "url": "https://openreview.net/forum?id=c2BygWVqag" },
             { "text": "KDD'26", "url": "https://dl.acm.org/doi/abs/10.1145/3770855.3817756" },
             { "text": "EMNLP'26 Findings", "url": "https://arxiv.org/abs/2601.15801" },
-            { "text": "MMM'26", "url": "https://link.springer.com/chapter/10.1007/978-981-95-6957-1_3" },
-            { "text": "Submission", "url": "" }
+            { "text": "MMM'26", "url": "https://link.springer.com/chapter/10.1007/978-981-95-6957-1_3" }
           ]
         },
         {
@@ -90,9 +87,7 @@
         {
           "label": "Backdoor Defense",
           "links": [
-            { "text": "TDSC'25", "url": "https://ieeexplore.ieee.org/document/11173939" },
-            { "text": "Submission", "url": "" },
-            { "text": "Submission", "url": "" }
+            { "text": "TDSC'25", "url": "https://ieeexplore.ieee.org/document/11173939" }
           ]
         },
         {
