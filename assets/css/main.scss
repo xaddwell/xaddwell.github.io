@@ -668,6 +668,30 @@ span.chip.chip--muted {
     background: linear-gradient(135deg, #a16207, #854d0e);
 }
 
+.gh-tag {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 1.65em;
+    height: 1.65em;
+    border-radius: 6px;
+    background: #24292f;
+    color: #ffffff;
+    font-size: 0.78em;
+    vertical-align: -2px;
+    transition: background 0.15s ease, transform 0.15s ease;
+}
+
+.gh-tag i {
+    color: #ffffff;
+    font-size: 0.95em;
+}
+
+a:hover .gh-tag {
+    background: var(--accent);
+    transform: translateY(-1px);
+}
+
 /* Collapsible preprints block */
 .preprint-box {
     margin-top: 1.6rem;

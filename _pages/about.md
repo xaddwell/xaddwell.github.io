@@ -60,7 +60,7 @@ redirect_from:
   </div>
   <ol class="publication-list">
     {% for item in profile.publications %}
-    <li>{{ item | replace: "[CCF-A]", '<span class="ccf-badge ccf-a">CCF-A</span>' | replace: "[CCF-B]", '<span class="ccf-badge ccf-b">CCF-B</span>' | replace: "[CCF-C]", '<span class="ccf-badge ccf-c">CCF-C</span>' | replace: "[TH-A]", '<span class="ccf-badge th-a">TH-A</span>' | replace: "[CORE-A*]", '<span class="ccf-badge core-astar">CORE A*</span>' | replace: "[CORE-A]", '<span class="ccf-badge core-a">CORE A</span>' | markdownify | remove: "<p>" | remove: "</p>" }}</li>
+    <li>{{ item | replace: "[CCF-A]", '<span class="ccf-badge ccf-a">CCF-A</span>' | replace: "[CCF-B]", '<span class="ccf-badge ccf-b">CCF-B</span>' | replace: "[CCF-C]", '<span class="ccf-badge ccf-c">CCF-C</span>' | replace: "[TH-A]", '<span class="ccf-badge th-a">TH-A</span>' | replace: "[CORE-A*]", '<span class="ccf-badge core-astar">CORE A*</span>' | replace: "[CORE-A]", '<span class="ccf-badge core-a">CORE A</span>' | replace: "[Code](", '[<span class="gh-tag" title="Code"><i class="fab fa-github" aria-hidden="true"></i></span>](' | markdownify | remove: "<p>" | remove: "</p>" }}</li>
     {% endfor %}
   </ol>
 

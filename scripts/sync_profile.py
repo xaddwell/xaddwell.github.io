@@ -64,7 +64,7 @@ def render_readme(profile: dict) -> str:
             "",
             "# Publications",
             profile["publications_note"],
-            render_list([item.strip() for item in profile["publications"]]),
+            render_list([item.strip().replace("[Code](", "[:octocat:](") for item in profile["publications"]]),
             "",
         ]
     )
