@@ -75,7 +75,6 @@
             { "text": "ICML'26", "url": "https://openreview.net/forum?id=Ra0pui9HXF" },
             { "text": "AAAI'27 Submission", "url": "https://arxiv.org/abs/2609.02564" },
             { "text": "Survey (Self-Evolving)", "url": "https://xaddwell.github.io/Awesome-Self-Evolving-Agent-Safety/" },
-            { "text": "Survey (Agentic Memory)", "url": "https://github.com/xaddwell/awesome-agentic-memory-safety" },
             { "text": "Report", "url": "https://github.com/xaddwell/awesome-openclaw-security" }
           ]
         }
