@@ -116,7 +116,7 @@
           "links": [
             { "text": "CCS'26", "url": "https://arxiv.org/abs/2605.05271" },
             { "text": "TDSC'26", "url": "https://arxiv.org/abs/2412.18123" },
-            { "text": "EMNLP'26 Findings", "url": "" },
+            { "text": "EMNLP'26 Findings", "url": "https://arxiv.org/abs/2608.22248" },
             { "text": "AAAI'27 Submission", "url": "https://arxiv.org/abs/2604.25562" },
             { "text": "Submission (T2I Content Safety)", "url": "" }
           ]
@@ -154,7 +154,7 @@
   ],
   "publications_note": "($^\\star$ denotes equal contribution; first/co-first-author papers are listed first) / Full list in [Google Scholar](https://scholar.google.com/citations?user=Z7SkCL8AAAAJ)",
   "publications": [
-    " [Beyond Over-Refusal: Defending Indirect Prompt Injection via Latent Instruction Manifolds](), **Jiahao Chen**, Rui Yin, Xinfeng Li, Qianli Ma, Tianyu Du, Zhihui Fu, Jun Wang, Zhaoxiang Wang, Shouling Ji, EMNLP 2026 Findings. [CCF-B] [TH-A] [CORE-A*] [Code](https://github.com/xaddwell/AEGIS)",
+    " [Beyond Over-Refusal: Defending Indirect Prompt Injection via Latent Instruction Manifolds](https://arxiv.org/abs/2608.22248), **Jiahao Chen**, Rui Yin, Xinfeng Li, Qianli Ma, Tianyu Du, Zhihui Fu, Jun Wang, Zhaoxiang Wang, Shouling Ji, EMNLP 2026 Findings. [CCF-B] [TH-A] [CORE-A*] [Code](https://github.com/xaddwell/AEGIS)",
     " [Customization under Fire: Plugin Poisoning in Text-to-Image Ecosystem](https://arxiv.org/abs/2606.09151), **Jiahao Chen**, Xing He, Yong Yang, Xinfeng Li, Chunyi Zhou, Junhao Li, Zhe Ma, Tianyu Du, and Shouling Ji, CCS 2026. [CCF-A] [TH-A] [CORE-A*] [Code](https://github.com/xaddwell/PoisonLoRA)",
     " [LoRAShield: Data-Free Editing Alignment for Secure Personalized LoRA Sharing](https://arxiv.org/pdf/2507.07056), **Jiahao Chen**$^\\star$, Junhao Li $^\\star$, Yiming Wang, Yong Yang, Yi Jiang, Chunyi Zhou, Qingming Li, Tianyu Du, Shouling Ji, KDD 2026 Oral. [CCF-A] [TH-A] [CORE-A*] [Code](https://github.com/xaddwell/LoRAShield)",
     " [MADA-Attack: Transferable Multi-modal Attention Distraction Adversarial Attack against Vision Language Models](https://openreview.net/forum?id=ql0gSFEKAC), Zhihan Qin $^\\star$, **Jiahao Chen**$^\\star$, Chunyi Zhou, Yuwen Pu, Chunqiang Hu, Xiaolei Liu, Shouling Ji, ICML 2026. [CCF-A] [TH-A] [CORE-A*] [Code](https://github.com/RaymundoTheWolf/MADA-Attack)",
